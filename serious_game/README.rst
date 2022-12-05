@@ -12,17 +12,13 @@ Principes
 
 * 6 cases par portion:
 
-Debug : correction d'un programme ou d'une fonction
-    
-Animation et co-animation: sur le theme donné, proposer un exemple et le présenter
-    
-Quizz : 4 questions sur le theme
-    
-Case pioche carte 'fortune'
-    
-Case Aide
-    
-?????
+    * Debug : correction d'un programme ou d'une fonction
+    * Animation et co-animation: sur le theme donné, proposer un exemple et le présenter
+    * Quizz : 4 questions sur le theme
+    * Case pioche carte 'fortune'
+    * Case Aide
+    * A TROUVER
+
 
 
 
