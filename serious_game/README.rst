@@ -12,12 +12,12 @@ Principes
 
 * 6 cases par portion:
 
-    * Debug : correction d'un programme ou d'une fonction (dans un notebook), refactorisation
-    * Animation et co-animation: sur le theme donné, proposer un exemple et le présenter: vote à la fin
-    * Quizz : 4 questions sur le theme (wooclap)
-    * Case pioche 'carte fortune': exemple:carte réponse 'acceptée' ; version de Python trop ancienne :faire un 6 pour repartir etc. 
-    * Case Aide: trouver les sites d'aide sur le domaine
-    * Culture générale Python: Les opérateurs logiques, les dictionnaires etc..
+ * Debug : correction d'un programme ou d'une fonction (dans un notebook), refactorisation
+ * Animation et co-animation: sur le theme donné, proposer un exemple et le présenter: vote à la fin
+ * Quizz : 4 questions sur le theme (wooclap)
+ * Case pioche 'carte fortune': exemple:carte réponse 'acceptée' ; version de Python trop ancienne :faire un 6 pour repartir etc. 
+ * Case Aide: trouver les sites d'aide sur le domaine
+ * Culture générale Python: Les opérateurs logiques, les dictionnaires etc..
 
 Materiel.
 ---------
