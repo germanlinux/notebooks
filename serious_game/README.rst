@@ -18,6 +18,7 @@ Principes
  * Case pioche 'carte fortune': exemple:carte réponse 'acceptée' ; version de Python trop ancienne :faire un 6 pour repartir etc. 
  * Case Aide: trouver les sites d'aide sur le domaine
  * Culture générale Python: Les opérateurs logiques, les dictionnaires etc..
+ 
 
 Materiel.
 ---------
