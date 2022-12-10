@@ -18,9 +18,14 @@ Exemples:
 * Animation et co-animation: sur le theme donné, proposer un exemple et le présenter: vote à la fin
     * Le domaine 'Signature et passage de parametre'
         * Expliquer la difference entre des parametres positionnels et ceux de type cle-valeur
-        * L'importance des PEP
+        * Expliquer le rôle de '*' avant une variable
         * Qu'elle difference entre une variable globale et locale: cas d'usage
         * Exemple d'usage du mot clé global
+    * Le domaine 'Exception'
+        * Expliquez la gestion des exceptions en dehors du contexte d'un langage
+        * Montrez un exemple de d'exception qui masque une autre exception
+        * Expliquez le schéma des exception 
+        * quelles sont les bonnes pratiques en matière d'exception ?
 
 
 * Case pioche 'carte fortune': exemple:carte réponse 'acceptée' ; version de Python trop ancienne :faire un 6 pour repartir etc. 
