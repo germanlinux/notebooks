@@ -26,7 +26,17 @@ Exemples:
         * Montrez un exemple de d'exception qui masque une autre exception
         * Expliquez le schéma des exception 
         * quelles sont les bonnes pratiques en matière d'exception ?
-
+    * Le domaine 'Module'
+        * Les differentes formes de l'import
+        * Comment trouver de l'aide sur un module
+        * Comment installer un module
+        * Prendre deux modules en exemple et les presenter
+    * Le domaine regexp
+        * Quelles sont les méthodes les plus courantes
+        * Exposer quelques motifs quantificateurs
+        * Les groupes
+        * Les classes de caractères
+            
 
 * Case pioche 'carte fortune': exemple:carte réponse 'acceptée' ; version de Python trop ancienne :faire un 6 pour repartir etc. 
     * Carte 'dé' : de 1 à 6
