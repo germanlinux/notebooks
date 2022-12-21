@@ -13,6 +13,8 @@ Exemples:
     * Refactorisation  d'une fonction afin de la rendre plus éfficace
     * Refactorisation de boucle for
     * Simplifier ou corriger des REGEXP
+    * Explication sur la difference de comportement entre str= str + qqchose et str += qqchose et les mêmes opération avec une liste
+     
 
 
 * Animation et co-animation: sur le theme donné, proposer un exemple et le présenter: vote à la fin
