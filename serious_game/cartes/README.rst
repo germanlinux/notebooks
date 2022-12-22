@@ -14,7 +14,7 @@ Exemples:
     * Refactorisation de boucle for
     * Simplifier ou corriger des REGEXP
     * Explication sur la difference de comportement entre str= str + qqchose et str += qqchose et les mêmes opération avec une liste
-     
+
 
 
 * Animation et co-animation: sur le theme donné, proposer un exemple et le présenter: vote à la fin
@@ -38,6 +38,11 @@ Exemples:
         * Exposer quelques motifs quantificateurs
         * Les groupes
         * Les classes de caractères
+    * Domaine avancé
+        * La difference entre sorted et la méthode sort des listes
+        * Ecrire une fonction anonyme pour transformer un nombre en sa correspondance ASCII et l'appliquer à une liste
+
+
             
 
 * Case pioche 'carte fortune': exemple:carte réponse 'acceptée' ; version de Python trop ancienne :faire un 6 pour repartir etc. 
