@@ -26,7 +26,7 @@ Exemples:
     * Le domaine 'Exception'
         * Expliquez la gestion des exceptions en dehors du contexte d'un langage
         * Montrez un exemple de d'exception qui masque une autre exception
-        * Expliquez le schéma des exception 
+        * Expliquez le schéma des exceptions 
         * quelles sont les bonnes pratiques en matière d'exception ?
     * Le domaine 'Module'
         * Les differentes formes de l'import
