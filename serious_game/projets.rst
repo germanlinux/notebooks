@@ -54,6 +54,33 @@ Utilisé de manière autonome, le module se lancera comme un script.
 
 
 MetaProgrammation
+=================
 
+Soit la classe Conteneur, elle possède le constructeur qui prend en parametre: l'heure et les minutes sour la forme suivante 
+Exemple  Conteneur(hh, mm )
+Cette classe à pour attribut: nombre de seconde depuis le début de la journée
+Cette classe à pour attribut: nombre de seconde jusqu'a la fin de la journée
+Ces attributs seront dynamiques (decorateur @property)
+1) Construire la classe 
 
+2) Construire des méthodes de classe permettant de collecter les informations sous la forme:
+Conteneur.read_from_json
+Conteneur.read_from_decimal 
+Conteneur.read_from_csv
+
+Liste à trou.
+=============
+
+Creer une classe Listrou qui permet de gérer des séquences de liste non continues.
+Exemple si l'élément de rang  5 est le dernier élément, l'ajout direct de l'element 15  sera possible.
+Cette classe reprendra les méthodes de la classe list.
+
+Comptage.
+=========
+
+Ce module permet de compter les mots d'une chaine, d'une tupple ou d'une liste
+
+Un attribut permet d'exclure des motifs (espace, . , et ) etc.
+Valeur par défaut 'espace'
+Une méthode retournera le nombre de mot , une autre le nombre de lettre 
   
