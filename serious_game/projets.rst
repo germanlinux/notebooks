@@ -36,9 +36,10 @@ Si le mail existe déjà, ajouter un chiffre en sequence (ex: gdubois1  etc )
 
 Une commande système.
 =====================
-Lancer la commande ipconfig et recupérer la sortie de la commande.
+Objectif :Lancer la commande ipconfig et recupérer la sortie de la commande.
+Utilisé de manière autonome, le module se lancera comme un script.
 
-A partir des informations collectées, creer une classe Interface qui portera les attributs suivants:
+1 ) A partir des informations collectées, creer une classe Interface qui portera les attributs suivants:
 
 * Adresse IPV4 
 * Adresse IPV6
@@ -46,4 +47,13 @@ A partir des informations collectées, creer une classe Interface qui portera le
 * Masque de sous-reseau
 * Passerelle 
   
+2) Utiliser le module argparse pour offrir à l'utilisateur des options et de l'aide.
+- options: ipv4 / ipv6 ou les deux
+- sortie: json , texte , csv
+- autre option au choix.
 
+
+MetaProgrammation
+
+
+  
