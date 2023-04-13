@@ -33,6 +33,15 @@ Un contact sera un objet de la classe Contact qui fournira: le nom, prenom ,l'ad
 
 L'adresse mail sera passée au constructeur ou bien elle sera construite à partir de la première lettre du prenom suivie du nom et @mondomaine.fr 
 Si le mail existe déjà, ajouter un chiffre en sequence (ex: gdubois1  etc )
+Possibilité de terminer par tkinter
+
+Une TODO liste
+==============
+
+Faire une classe Liste_a_faire qui contiendra des taches élémentaires à faire (classe Tache)
+Une tache est composée d'un nom , d'une priorité , d'un état  et d'une date de création (a faire, en cours terminée)
+Faire une methode de Liste_a_faire qui présente les taches par priorité et par date de création.
+Possibilité de terminer par tkinter
 
 Une commande système.
 =====================
