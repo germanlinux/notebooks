@@ -128,10 +128,10 @@
 </node>
 <node TEXT="valeurs nulles" ID="ID_302387858" CREATED="1681303646360" MODIFIED="1681303735510">
 <icon BUILTIN="closed"/>
-<node TEXT="isnull()" ID="ID_706656599" CREATED="1681303656623" MODIFIED="1681303684764">
+<node TEXT="isnull()" ID="ID_706656599" CREATED="1681303656623" MODIFIED="1681577189142" LINK="https://pandas.pydata.org/docs/reference/api/pandas.isnull.html">
 <icon BUILTIN="links/code/file_Python"/>
 </node>
-<node TEXT="dropna()" ID="ID_1136571903" CREATED="1681303798578" MODIFIED="1681303814154">
+<node TEXT="dropna()" ID="ID_1136571903" CREATED="1681303798578" MODIFIED="1681577596905" LINK="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html">
 <icon BUILTIN="links/code/file_Python"/>
 </node>
 <node TEXT="remplacees par" ID="ID_535884344" CREATED="1681304288474" MODIFIED="1681304305517">
@@ -178,7 +178,7 @@
 </node>
 </node>
 <node TEXT="Les opérations de mise à l&apos;echelle" ID="ID_584678778" CREATED="1681146536731" MODIFIED="1681146556119">
-<node TEXT="MinMaxScaler()" ID="ID_1253063580" CREATED="1681283304206" MODIFIED="1681283315070">
+<node TEXT="MinMaxScaler()" ID="ID_1253063580" CREATED="1681283304206" MODIFIED="1681568879456" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html">
 <icon BUILTIN="executable"/>
 </node>
 <node TEXT="fit et transform" ID="ID_997686867" CREATED="1681296596951" MODIFIED="1681296663028">
