@@ -3,7 +3,7 @@
 <node TEXT="python datascience" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1681305258010" STYLE="oval" VGAP_QUANTITY="4.5 pt">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="0.827">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" associatedTemplateLocation="template:/standard-1.6.mm"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -80,19 +80,22 @@
 <node TEXT="Le chargement des données&#xa;dans Pandas" POSITION="right" ID="ID_292817019" CREATED="1681146422696" MODIFIED="1681146474064">
 <edge COLOR="#00ff00"/>
 <node TEXT="CSV" ID="ID_1995202770" CREATED="1681146439096" MODIFIED="1681146442921">
-<node TEXT="read_csv()" ID="ID_498377534" CREATED="1681288052259" MODIFIED="1681288104831">
+<node TEXT="read_csv()" ID="ID_498377534" CREATED="1681288052259" MODIFIED="1681561778546" LINK="https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html">
 <icon BUILTIN="links/code/file_Python"/>
 </node>
 </node>
 <node TEXT="SQL" ID="ID_418128414" CREATED="1681146443442" MODIFIED="1681146450018">
-<node TEXT="read_sql()" ID="ID_1235858995" CREATED="1681298162843" MODIFIED="1681298218904">
+<node TEXT="read_sql()" ID="ID_1235858995" CREATED="1681298162843" MODIFIED="1681561821282" LINK="https://pandas.pydata.org/docs/reference/api/pandas.read_sql.html">
 <icon BUILTIN="links/code/file_Python"/>
 </node>
 </node>
 </node>
 <node TEXT="génération de données" POSITION="right" ID="ID_1204925636" CREATED="1681283196893" MODIFIED="1681283204414">
 <edge COLOR="#00007c"/>
-<node TEXT="make_classification()" ID="ID_1235337921" CREATED="1681283208054" MODIFIED="1681288037567">
+<node TEXT="make_classification()" ID="ID_1235337921" CREATED="1681283208054" MODIFIED="1681561714558" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_classification.html">
+<icon BUILTIN="executable"/>
+</node>
+<node TEXT="make_regression" ID="ID_1178171447" CREATED="1681561642819" MODIFIED="1681561677741" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_regression.html#sklearn.datasets.make_regression">
 <icon BUILTIN="executable"/>
 </node>
 </node>
@@ -135,23 +138,23 @@
 <node TEXT="la moyenne" ID="ID_912761430" CREATED="1681304307912" MODIFIED="1681304311774"/>
 <node TEXT="la valeur mediane" ID="ID_232797612" CREATED="1681304312501" MODIFIED="1681304319971"/>
 <node TEXT="valeur" ID="ID_754919278" CREATED="1681304320945" MODIFIED="1681304329060"/>
-<node TEXT="SimpleImputer + strategie" ID="ID_96272674" CREATED="1681304392020" MODIFIED="1681304409543">
+<node TEXT="SimpleImputer + strategie" ID="ID_96272674" CREATED="1681304392020" MODIFIED="1681543361646" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html">
 <icon BUILTIN="executable"/>
 <node TEXT="[&apos;mean&apos;, &apos;median&apos;, &apos;most_frequent&apos;, &apos;constant&apos;]" ID="ID_1073540547" CREATED="1681304526646" MODIFIED="1681304530559"/>
 </node>
-<node TEXT="KNNImputer()" ID="ID_1892384811" CREATED="1681304796608" MODIFIED="1681304802237">
+<node TEXT="KNNImputer()" ID="ID_1892384811" CREATED="1681304796608" MODIFIED="1681545732279" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html#sklearn.impute.KNNImputer">
 <icon BUILTIN="executable"/>
 </node>
-<node TEXT="IterativeImputer()" ID="ID_1225047483" CREATED="1681305962547" MODIFIED="1681305974801">
+<node TEXT="IterativeImputer()" ID="ID_1225047483" CREATED="1681305962547" MODIFIED="1681546335440" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.impute.IterativeImputer.html#sklearn-impute-iterativeimputer">
 <icon BUILTIN="executable"/>
 </node>
-<node TEXT="fillna()" ID="ID_554866126" CREATED="1681307503172" MODIFIED="1681307513610">
+<node TEXT="fillna()" ID="ID_554866126" CREATED="1681307503172" MODIFIED="1681546376008" LINK="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.fillna.html">
 <icon BUILTIN="links/code/file_Python"/>
 </node>
-<node TEXT="interpolate()" ID="ID_858832884" CREATED="1681307826875" MODIFIED="1681307890944">
+<node TEXT="interpolate()" ID="ID_858832884" CREATED="1681307826875" MODIFIED="1681546454377" LINK="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.interpolate.html">
 <icon BUILTIN="links/code/file_Python"/>
 </node>
-<node TEXT="replace()" ID="ID_669464083" CREATED="1681307893163" MODIFIED="1681307899633">
+<node TEXT="replace()" ID="ID_669464083" CREATED="1681307893163" MODIFIED="1681546519110" LINK="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.replace.html">
 <icon BUILTIN="links/code/file_Python"/>
 </node>
 </node>
@@ -210,7 +213,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="fit()" ID="ID_1955361301" CREATED="1681309507868" MODIFIED="1681309584664">
