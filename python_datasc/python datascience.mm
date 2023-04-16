@@ -230,13 +230,16 @@
 </node>
 <node TEXT="scoring" POSITION="right" ID="ID_1159117062" CREATED="1681297526348" MODIFIED="1681297529623">
 <edge COLOR="#7c007c"/>
-<node TEXT="accuracy_score" ID="ID_106072715" CREATED="1681297535757" MODIFIED="1681297563529">
+<node TEXT="accuracy_score" ID="ID_106072715" CREATED="1681297535757" MODIFIED="1681629820408" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#sklearn.metrics.accuracy_score">
 <icon BUILTIN="executable"/>
 </node>
 <node TEXT="cross_val_score" ID="ID_1900534817" CREATED="1681297868946" MODIFIED="1681297875546">
 <icon BUILTIN="executable"/>
 </node>
 <node TEXT="mean_absolute_error" ID="ID_1273104321" CREATED="1681302638694" MODIFIED="1681302641928"/>
+<node TEXT="mean_squared_error" ID="ID_850903166" CREATED="1681631261043" MODIFIED="1681631290562" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html#sklearn.metrics.mean_squared_error">
+<icon BUILTIN="executable"/>
+</node>
 </node>
 <node TEXT="pipeline" POSITION="right" ID="ID_1216276892" CREATED="1681298137052" MODIFIED="1681298140944">
 <edge COLOR="#007c7c"/>
