@@ -164,7 +164,7 @@
 <node TEXT="suppression des X de valeur unitaire" ID="ID_441095539" CREATED="1681298331040" MODIFIED="1681300651909">
 <icon BUILTIN="checked"/>
 </node>
-<node TEXT="VarianceThreshold()&#xa;vd = 0.00" ID="ID_1545681239" CREATED="1681300371317" MODIFIED="1681300415225">
+<node TEXT="VarianceThreshold()&#xa;vd = 0.00" ID="ID_1545681239" CREATED="1681300371317" MODIFIED="1681724361018" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.VarianceThreshold.html">
 <icon BUILTIN="executable"/>
 </node>
 <node TEXT="LinearDiscriminantAnalysis()" ID="ID_470126219" CREATED="1681304106250" MODIFIED="1681304120908">
