@@ -73,3 +73,30 @@ Case pioche carte 'fortune'.
 ----------------------------
 
 Dans cette pioche se trouve des bonnes cartes et des plus mauvaises. Les bonnes cartes se gardent pour etre jouées quand l'opportunité se présente. Les cartes de mauvaise fortune sont a jouer immédiatement.
+
+Variante: phases Projet
+=======================
+
+Dans ce jeu, le plateau est découpé en phase projet:
+
+- Conception : modélisation (chapitres: collections , dataclasse)
+- Mise en place d'un envirronnement de developpement (chapitre: venv, poetry)
+- La réalisation: le python avancé: (chapitres: regexp, tri, iterateurs , listcomp)
+- La qualité du code (chapitres:PEP8, exceptions, tests , couverture)
+- La documentation du code: (chapitre:sphinx)
+- Le deploiement (pip)
+- L'interface utilisateur (chapitre: tkinter)
+
+Chaque phase comporte:
+----------------------
+
+- Une case quizz
+- Une case daily meeting (exposer un sujet aux équipes)
+- Une case 'bug' : corriger un programme
+- Une case refactorisation: améliorer ou trouver une variante
+- case aide : trouver des sites d'aide pour differents sujets
+- case pairing: une autre equipe vient relire le code
+  
+
+
+  
