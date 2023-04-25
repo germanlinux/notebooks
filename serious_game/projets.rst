@@ -92,4 +92,35 @@ Ce module permet de compter les mots d'une chaine, d'une tupple ou d'une liste
 Un attribut permet d'exclure des motifs (espace, . , et ) etc.
 Valeur par défaut 'espace'
 Une méthode retournera le nombre de mot , une autre le nombre de lettre 
+
+Gestionnnaire de mot de passe.
+==============================
+
+Ce module permet d associer un service avec un nom d'utilisateur et un mot de passe.
+Il peut y avoir plusieurs trousseaux de mots de passe:
+
+* Un trouseau professionnel
+* privé 
+* bancaire etc.. 
   
+  Concevoir un modèle avec une classe trousseau , une classe service (nom , url ou adresse , user, password)
+
+  Il sera possible de faire des recherches par trousseaux ou sur l'ensemble de la liste des trousseaux
+  Un méthode permettra de générer des mots de passe. La politique de génération de mot de passe se basera sur un
+  ensemble de lettre, chiffre, symbole.
+
+  Les données de l'application seront stockées dans un fichier csv qui sera lui même chiffré par un décalage des
+  codes ascii ou par tout autre dispositif. 
+
+Chronometre.
+============
+
+Concevoir un module qui permmette de creer des chronometres avec temps intermédiaire 
+Un mode compte à rebours sera aussi prévu.
+
+Il sera possible de creer plusieurs chronometres indépendants. Il serait souhaitable de s'appuyer sur des générateurs.
+
+Faire évoluer votre module en décorateur.
+
+
+
