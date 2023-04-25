@@ -115,12 +115,12 @@ Il peut y avoir plusieurs trousseaux de mots de passe:
 Chronometre.
 ============
 
-Concevoir un module qui permmette de creer des chronometres avec temps intermédiaire 
+1 )Concevoir un module qui permmette de creer des chronometres avec temps intermédiaire 
 Un mode compte à rebours sera aussi prévu.
 
 Il sera possible de creer plusieurs chronometres indépendants. Il serait souhaitable de s'appuyer sur des générateurs.
 
-Faire évoluer votre module en décorateur.
+2) Faire évoluer votre module en décorateur.
 
 
 
