@@ -87,15 +87,19 @@ Dans ce jeu, le plateau est découpé en phase projet:
 - Le deploiement (pip)
 - L'interface utilisateur (chapitre: tkinter)
 
+Le plateau sera tronconné en portion de 7 cases: la derniere des 7 cases est le point de départ du 
+troncon suivant. Elle comportera un quizz.
+
 Chaque phase comporte:
 ----------------------
 
-- Une case quizz
+- 
 - Une case daily meeting (exposer un sujet aux équipes)
 - Une case 'bug' : corriger un programme
 - Une case refactorisation: améliorer ou trouver une variante
 - case aide : trouver des sites d'aide pour differents sujets
 - case pairing: une autre equipe vient relire le code
+- Une case quizz obligatoire en 7eme position
   
 
 
