@@ -95,12 +95,12 @@ Chaque phase comporte:
 
 - 
 - Une case daily meeting (exposer un sujet aux équipes)
-- Une case 'bug' : corriger un programme
+- Une case 'bug' : corriger un programme une fonction
 - Une case refactorisation: améliorer ou trouver une variante
-- Case aide : trouver des sites d'aide pour differents sujets
-- Case pairing: une autre equipe vient relire le code
+- Case aide : trouver des sites d'aide pour differents sujets , recevoir de l'aide
+- Case pairing: une autre equipe vient relire le code ou  l'equipe expose son code
 - Une case quizz obligatoire en 7eme position
-- Une case GOUROU
+- Une case GOUROU , elle permet à l'equipe de choisir 
   
 
 
