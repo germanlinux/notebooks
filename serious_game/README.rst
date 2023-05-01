@@ -100,7 +100,7 @@ Chaque phase comporte:
 - Case aide : trouver des sites d'aide pour differents sujets , recevoir de l'aide
 - Case pairing: une autre equipe vient relire le code ou  l'equipe expose son code
 - Une case quizz obligatoire en 7eme position
-- Une case GOUROU , elle permet à l'equipe de choisir 
+- Une case GOUROU , elle permet à l'equipe de choisir un sujet qu'elle veut voir developper
   
 
 
