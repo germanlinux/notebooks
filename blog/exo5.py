@@ -9,13 +9,18 @@ class Comptage():
     def __init__(self, texte):
         self.dico = {}
         tab_texte = texte.split(' ')
-        for grpmot in tab_texte:
-            for smot in sousmot:
-                if smot != '' and len(mot) > 1:
-                  if mot.lower() in self.dico:
-                      self.dico[mot.lower()] += 1
-                  else:
-                      self.dico[mot.lower()] = 1
+        for mot in tab_texte:  
+            if mot.find("'") > 0:
+                tab= mot.split("'")
+                mot= tab[1]
+            self.maj_dico(mot)
+
+    def maj_dico(self, mot):
+        if mot != '' and len(mot) > 1:
+             if mot.lower() in self.dico:
+                 self.dico[mot.lower()] += 1
+             else:
+                 self.dico[mot.lower()] = 1
 
     def liste(self):
         liste_ = []
@@ -23,5 +28,5 @@ class Comptage():
             liste_.append((cle,valeur ))
         return liste_
 
-a = Comptage("Pourquoi , pourquoi , as tu fait ca, tu n'est pas un as de la route" )
+a = Comptage("Pourquoi , pourquoi , as tu fait ca , tu n'est pas un as de la route. Je voulais voir une fois qu'il effet ca fait" )
 print(a.liste())        

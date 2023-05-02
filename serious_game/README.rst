@@ -86,7 +86,7 @@ Dans ce jeu, le plateau est découpé en phase projet:
 - La documentation du code: (chapitre:sphinx)
 - Le deploiement (pip)
 - L'interface utilisateur (chapitre: tkinter)
-
+- mode gourou : des sujets pointus au choix
 Le plateau sera tronconné en portion de 7 cases: la derniere des 7 cases est le point de départ du 
 troncon suivant. Elle comportera un quizz.
 
