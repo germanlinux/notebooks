@@ -1,0 +1,1590 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+
+                                                               <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lalibrairie.com - Une seule adresse, plus de 2500 librairies et points libraires en ligne</title>
+    <meta name="description" lang="fr" content="Lalibrairie.com renforce le lien social. Les livres que vous achetez en ligne sont mis à disposition dans l'une de nos librairies françaises partenaires ou sont livrés partout en France comme à l'étranger. Une démarche collective et mutualiste de la librairie indépendante."/>
+                        <link rel="icon" href="/static/build/images/favicon.ico"/>
+    <link rel="shortcut icon" href="/static/build/images/favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/v1.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/v2.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/v3.css')}}">
+    </head>
+<body class="desktop home ">
+<section id="body">
+    <div id="main-header-content" class=" offcanvas offcanvas-top" data-bs-backdrop="false" data-bs-scroll="true" data-bs-keyboard="true" tabindex="-1">
+    <div class="offcanvas-body p-0 m-0">
+        <div class=" container-fluid bg-green-brand text-white bg-transparent">
+            <div class="container position-relative">
+                                    <a href="#"
+                       class="position-absolute end-0 me-3"
+                       data-bs-dismiss="offcanvas"
+                       aria-label="Close"
+                    >
+                        <i class="icon icon-close"></i>
+                    </a>
+                                <div class="row justify-content-md-center">
+                    <div class="col col-md-12">
+                                                                        <div class="mb-3">
+                                <ul id="main-navbar-product-type"
+        class="list-unstyled mb-0 d-flex mx-auto ">
+        <li class="nav-item">
+            <a href="#"
+               class="nav-link nav-item-dropdown text-white gtag-event"
+               id="nav-item-fr"
+               data-target-id="navbarDropdownFr"
+               data-gtag-event="navbar_click_livres"
+               role="button"
+               aria-expanded="false">
+                En français
+            </a>
+        </li>
+        <li class="nav-item mx-5 ">
+            <a href="#"
+               class="nav-link nav-item-dropdown text-white gtag-event"
+               id="nav-item-en"
+               data-target-id="navbarDropdownLe"
+               data-gtag-event="navbar_click_livres_vo"
+               role="button"
+               aria-expanded="false">
+                Langues étrangères
+            </a>
+        </li>
+        <li class="nav-item ">
+            <a href="#"
+               class="nav-link nav-item-dropdown text-white gtag-event"
+               aria-label="nav-item-eb"
+               data-target-id="navbarDropdownEb"
+               data-gtag-event="navbar_click_livres_numeriques"
+               role="button"
+               aria-expanded="false">
+                E-book
+            </a>
+        </li>
+    </ul>
+                        </div>
+
+                        <div aria-labelledby="navbarDropdownFr" class="navbar-dropdown-item d-flex align-items-center d-none">
+                            <div class="w-100">
+                                                                <div class="badges  mt-4 fs-16">
+    <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+       href="/livres.html">Tous</a>
+            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+           href="/livres/rayon-litterature,2063.html">
+                            Littérature
+                    </a>
+            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+           href="/livres/rayon-bd-mangas,985.html">
+                            BD, mangas
+                    </a>
+            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+           href="/livres/rayon-jeunesse,1.html">
+                            Jeunesse
+                    </a>
+            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+           href="/livres/rayon-vie-pratique-bien-etre,720.html">
+                            Vie pratique, bien-être
+                    </a>
+            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+           href="/livres/rayon-loisirs-nature-voyages,1717.html">
+                            Loisirs, nature, voyages
+                    </a>
+            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+           href="/livres/rayon-science,788.html">
+                            Science
+                    </a>
+            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+           href="/livres/rayon-scolaire-et-apprentissage,1337.html">
+                            Scolaire et apprentissage
+                    </a>
+            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+           href="/livres/rayon-arts,914.html">
+                            Arts
+                    </a>
+            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+           href="/livres/rayon-sciences-humaines,762.html">
+                            Sciences humaines
+                    </a>
+            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+           href="/livres/rayon-economie-gestion-droit,1250.html">
+                            Economie, gestion, droit
+                    </a>
+    </div>                            </div>
+                        </div>
+                        <div aria-labelledby="navbarDropdownLe" class="navbar-dropdown-item d-flex align-items-center d-none">
+                            <div class="w-100">
+                                                                <div class="badges   mt-5 text-md-center">
+    <input type="radio" class="btn-check" name="libri-language" value="eng" id="language-eng" autocomplete="off" checked>
+    <label class="btn bg-green-brand-2 me-3 mb-3 fs-base fw-normal" for="language-eng">English</label>
+
+    <input type="radio" class="btn-check" name="libri-language" value="deu" id="language-deu" autocomplete="off">
+    <label class="btn bg-green-brand-2 me-3 mb-3 fs-base fw-normal" for="language-deu">Deutsch</label>
+
+    <input type="radio" class="btn-check" name="libri-language" value="spa" id="language-spa" autocomplete="off">
+    <label class="btn bg-green-brand-2 me-3 mb-3 fs-base fw-normal" for="language-spa">Español</label>
+
+    <input type="radio" class="btn-check" name="libri-language" value="ita" id="language-ita" autocomplete="off">
+    <label class="btn bg-green-brand-2 me-3 mb-3 fs-base fw-normal" for="language-ita">Italiano</label>
+
+    <input type="radio" class="btn-check" name="libri-language" value="nld" id="language-nld" autocomplete="off">
+    <label class="btn bg-green-brand-2 me-3 mb-3 fs-base fw-normal" for="language-nld">Nederlands</label>
+
+    <input type="radio" class="btn-check" name="libri-language" value="por" id="language-por" autocomplete="off">
+    <label class="btn bg-green-brand-2 me-3 mb-3 fs-base fw-normal" for="language-por">Português</label>
+
+    <input type="radio" class="btn-check" name="libri-language" value="lat" id="language-lat" autocomplete="off">
+    <label class="btn bg-green-brand-2 me-3 mb-3 fs-base fw-normal" for="language-lat">Latin</label>
+
+    <input type="radio" class="btn-check" name="libri-language" value="rus" id="language-rus" autocomplete="off">
+    <label class="btn bg-green-brand-2 me-3 mb-3 fs-base fw-normal" for="language-rus">русский</label>
+
+    <input type="radio" class="btn-check" name="libri-language" value="jpn" id="language-jpn" autocomplete="off">
+    <label class="btn bg-green-brand-2 me-3 mb-3 fs-base fw-normal" for="language-jpn">日本語</label>
+
+    <input type="radio" class="btn-check" name="libri-language" value="tur" id="language-tur" autocomplete="off">
+    <label class="btn bg-green-brand-2 me-3 mb-3 fs-base fw-normal " for="language-tur">Türkçe</label>
+</div>                            </div>
+                        </div>
+                        <div aria-labelledby="navbarDropdownEb" class="navbar-dropdown-item d-flex align-items-center d-none">
+                            <div class="row justify-content-lg-center">
+                                <div class="col-lg-8 text-center">
+                                    <p class="mb-4">Vous allez être redirigé vers le site de notre partenaire pour la
+                                                    commercialisation de livres numériques, Numilog, principal prestataire en France.
+                                                    Votre identifiant et votre mot de passe sont identiques sur les deux sites.</p>
+                                    <p><a class="btn btn-default bg-white text-dark" href="https://numerique.lalibrairie.com/"
+                                          target="_blank">Commander des livres numériques</a></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<div id="main-header" class="bg-green-brand fixed-top desktop ">
+
+    
+    <div class="container-fluid">
+        <div class="container text-white align-items-center">
+            <nav id="main-header-nav" class="">
+                                    <div class="row h-100 align-items-center">
+                        <div class="col-md-3">
+                            <a class="" href="/">
+                                <img src="/static/build/images/logo.png" alt="lalibrairie.com" class="img-fluid"/>
+                            </a>
+                        </div>
+                        <div class="col-md-6  col-xxl-5 mx-xxl-auto">
+                            <div data-target-id="navbarDropdownFr"
+                                 data-target-link-id="nav-item-fr"
+                                 class="form-rapid-search nav-item-dropdown flex-grow-1
+                             "
+                            >
+                                <form id="form-rapid-search"
+      class="form-rapid-search"
+      action="/livres/recherche.html"
+      method="post">
+    <input type="hidden" name="token" value="a11c67.BQ01Y5RFInrDtjh51GyQ1TDr_Ax2qG4tFb7vEycqZaY.UWJeMt1zUkyi-g425Q32sVOepnQEmwRZe8a8fhNNV8V3bE8l_ghgEob5DA"/>
+    <input type="hidden" name="searchLang" value="fra"/>
+    <div class="autocomplete-container position-relative">
+        <div class="input-group">
+            <input class="form-control fs-base autocomplete-input"
+                   type="search"
+                   name="rapid-search"
+                   value=""
+                   required="required"
+                   autocomplete="off"
+                   placeholder="Quel livre cherchez-vous ?"
+                   aria-label="Search"
+                   data-autocompte-url="/catalogue-ajax/suggestions"
+            >
+            <button type="submit" class="btn bg-white m-0">
+                <img src="/static/build/images/icons/search.svg" alt="search"/>
+            </button>
+        </div>
+        <div class="autocomplete-result bg-white position-absolute text-dark w-100 z-in">
+
+        </div>
+    </div>
+
+</form>
+                            </div>
+                            <div data-target-id="navbarDropdownLe"
+                                 data-target-link-id="nav-item-en"
+                                 class="form-rapid-search nav-item-dropdown flex-grow-1
+                             d-none"
+                            >
+                                <form method="post" id="libri-search-form" class="form-rapid-search"
+      action="/livres/livres-en-langues-etrangeres.html">
+    <input type="hidden" name="search-libri" value="1"/>
+    <input type="hidden" name="language" value="eng">
+    <div class="input-group">
+        <input class="form-control fs-base"
+               type="search"
+               name="search"
+               value=""
+               required="required"
+               autocomplete="off"
+               placeholder="Quel livre cherchez-vous ?"
+               aria-label="Search">
+        <button type="submit" class="btn bg-white m-0">
+            <img src="/static/build/images/icons/search.svg"/>
+        </button>
+    </div>
+
+</form>                            </div>
+                        </div>
+                        <div class="col-md-3 ">
+                            
+                
+
+<ul id="personal-nav-menu"
+    class="list-unstyled  mb-0 d-flex align-items-center
+            justify-content-end
+    "
+>
+        <li class="nav-item ">
+        <a class="nav-link text-white px-2 px-xl-3 icon-container "
+                                    href="http://robots-txt.com/"
+                        >
+                            <span class="d-none d-xl-inline ff-2">
+                                            En savoir plus sur les fichiers anti robots
+                                    </span>
+                        <i class="icon icon-book d-xl-none" title="Trouver ma librairie"></i>
+                    </a>
+            </li>
+        <li class="nav-item">
+        <a id="header-wishlist-link"
+           class="nav-link px-2 px-xl-3 icon-container tippy-link"
+                                    href="/espace-client/listes-enregistrees"
+                    data-tippy-ajax="/catalogue-ajax/get-modal-list-of-wishlists"
+                
+        >
+            <i class="icon icon-like" title="Voir mes listes d'envie"></i>
+                    </a>
+                
+    </li>
+    <li class="nav-item">
+        <a id="header-cart-link"
+           class="nav-link px-2 px-xl-3 icon-container tippy-link"
+                                    href="/panier.html"
+                    data-tippy-ajax="/catalogue-ajax/get-modal-cart"
+                    data-reload-befor-open="1"
+                        >
+            <i class="icon icon-cart" title="Voir mon panier"></i>
+            <span id="navbarCartCounter"
+                  class="d-none animation-element">0</span>
+                    </a>
+            </li>
+    <li class="nav-item item">
+        <a id="header-account-link"
+           class="nav-link px-2 px-xl-3 icon-container  text-white tippy-link"
+                                    href="/espace-client/mes-commandes"
+                    data-tippy-ajax="/main-ajax/get-modal-login?_target_path=https://www.lalibrairie.com/"
+                        >
+                            <i class="icon icon-account" title="Accéder à mon compte"></i>
+                                    </a>
+            </li>
+</ul>
+                        </div>
+                    </div>
+                            </nav>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="main-container"> <div class="container-fluid bg-green-brand-2 pt-2 pb-4 carousel-container">
+    <div class="container text-white">
+        <div class="row justify-content-md-center pt-4 pb-5">
+            <h1 class="h3 col col-lg-10 text-center">
+                La librairie en ligne qui défend les libraires indépendants
+            </h1>
+        </div>
+        
+        <div class="
+        swiffy-slider
+    slider-item-ratio-2x1
+    slider-item-snapstart
+    slider-nav-dark
+    slider-nav-sm
+    slider-indicators-round
+    slider-indicators-light
+    slider-indicators-outside
+    slider-nav-animation
+    slider-nav-animation-fadein
+    slider-nav-animation-fast
+    slider-nav-autoplay
+    slider-nav-autopause
+        ">
+    <ul class="slider-container" style="">
+                    <li>
+                <div class="row justify-content-md-center ">
+                    <p class="col col-lg-11 text-center">
+                        Nous prenons le parti de vous proposer <span class="text-brand-3 text-bold">un mode de consommation
+                        respectueux et durable</span>, au sein duquel chaque acteur contribue à
+                        maintenir l’écosystème du livre.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="row justify-content-md-center ">
+                    <p class="col col-lg-11 text-center">
+                        Les librairies indépendantes sont des moteurs de créativité et de développement <span class="text-brand-3
+        text-bold">culturel.</span><br>
+                        Elles offrent une sélection de livres variés et originaux, des conseils personnalisés et un lien
+                        privilégié avec les auteurs.<br>
+                        Elles sont à soutenir pour leur contribution indispensable à la vie littéraire et au dynamisme <span class="text-brand-3
+        text-bold">local.</span>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="row justify-content-md-center ">
+                    <p class="col col-lg-11 text-center">
+                        Nous prônons un nouveau <span class="text-brand-3
+        text-bold">mode de distribution alternatif</span> aux circuits traditionnels tout en
+                        protégeant votre librairie de proximité.<br/>
+                        Aucun frais de port garanti si vous retirez votre livre dans la librairie au coin de votre
+                        rue.<br/>
+                        Les <span class="text-brand-3
+        text-bold">librairies locales</span> sont le cœur de ce réseau, alors maintenons ces lieux d'échanges et
+                        de conseils.
+                    </p>
+                </div>
+            </li>
+            </ul>
+
+    <button type="button" class="slider-nav"></button>
+    <button type="button" class="slider-nav slider-nav-next"></button>
+
+    <ul class="slider-indicators">
+                    <li class="active"></li>
+                    <li class=""></li>
+                    <li class=""></li>
+            </ul>
+
+</div>
+
+
+    </div>
+</div>
+</div>
+            <div id="sticky-header-navbar" class="container-fluid bg-white text-brand-1 shadow-sm sticky-top">
+            <div class="container">
+                      <nav class="navbar navbar-expand-md ff-2" id="main-categories-navbar">
+         <a href="#"
+            class="text-brand-1 btn-navbar-toggler d-md-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainCategoriesNavbar"
+            aria-controls="mainCategoriesNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span> Voir tous nos rayons
+         </a>
+         <div class="collapse navbar-collapse bg-white px-5 py-3 p-md-0 "
+              id="mainCategoriesNavbar"
+         >
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-around w-100">
+                                      <li class="nav-item">
+                         <a class="nav-link fs-20 text-brand-1 gtag-event fill-underline" data-gtag-event="navbar_click_livres" aria-current="page" href="/livres.html">Livres en français</a>
+                     </li>
+                                      <li class="nav-item">
+                         <a class="nav-link fs-20 text-brand-1 gtag-event fill-underline" data-gtag-event="navbar_click_menu_livres_vo" aria-current="page" href="#">Livres en VO</a>
+                     </li>
+                                      <li class="nav-item">
+                         <a class="nav-link fs-20 text-brand-1 gtag-event fill-underline" data-gtag-event="navbar_click_selections_thematiques" aria-current="page" href="/livres/selection-thematique-science-fiction-2021,1338.html">Sélections thématiques</a>
+                     </li>
+                                      <li class="nav-item">
+                         <a class="nav-link fs-20 text-brand-1 gtag-event fill-underline" data-gtag-event="navbar_click_conseils_de_libraires" aria-current="page" href="/livres/conseils-de-lecture-de-nos-libraires.html">Conseils de nos libraires</a>
+                     </li>
+                                      <li class="nav-item">
+                         <a class="nav-link fs-20 text-brand-1 gtag-event fill-underline" data-gtag-event="navbar_click_bestseller" aria-current="page" href="/livres/meilleures-ventes.html">Meilleures ventes</a>
+                     </li>
+                                      <li class="nav-item">
+                         <a class="nav-link fs-20 text-brand-1 gtag-event fill-underline" data-gtag-event="navbar_click_bon_cadeaux" aria-current="page" href="/bons-cadeau/configuration">Bons cadeaux</a>
+                     </li>
+                              </ul>
+         </div>
+     </nav>
+             </div>
+        </div>
+    
+
+            <div class="container-fluid breadcrumb-container pb-0">
+            <div class="container">
+                            </div>
+        </div>
+                                <div class="main-container container-fluid min-height-auto">
+                <div class="container home-container">
+                <div class="slider-main-container">
+        <div class="swiffy-slider slider-item-show5 slider-item-responsive2 slider-item-ratio-contain slider-nav-animation slider-nav-visible slider-item-reveal slider-nav-page">
+            <div class="row">
+                <div class="col-md-8 order-0 slider-header justify-content-start ">
+                    <h2 class="d-inline-block">
+                                                    Nos sélections thématiques
+                                                </h2>
+                    <div class="slider-nav-container d-none d-md-block">
+                        <button type="button" class="slider-nav slider-nav-prev"></button>
+                        <button type="button" class="slider-nav slider-nav-next"></button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 text-end order-last order-md-1">
+                    <a href="/livres/selections-thematiques-de-nos-libraires.html"
+                       class="btn btn-outline-brand-1 btn-text-22 px-4 rounded-1 d-block d-md-inline w-100"
+                       role="button">
+                        <span class="d-md-none">
+                        Voir toutes les thématiques
+                        </span>
+                        <span class="d-none d-md-inline">
+                            Voir tout
+                        </span>
+                    </a>
+                </div>
+                <div class="col-12 order-md-2 my-2">
+                    <ul class="slider-container">
+                                                    <li>
+                                <div class="img-container mb-3">
+                                    <a href="/livres/selection-thematique-revisons-nos-classiques-italiens,1626.html">
+                                        <picture>
+                                            <source data-srcset="/static/cache/img/selections/prod-1626-xs.webp"
+                                                    type="image/webp" data-src="webpxs">
+                                            <source data-srcset="/static/cache/img/selections/prod-1626-xs.png"
+                                                    type="image/jpg" data-src="jpgxs">
+                                            <img class="lazy couverture"
+                                                 src="/static/build/images/chargement-selections.png"
+                                                 alt="Révisons nos classiques italiens"/>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="">
+                                    <div class="mb-2">
+                                        <a href="/livres/selection-thematique-revisons-nos-classiques-italiens,1626.html"
+                                           class="selection-title fw-bold">Révisons nos classiques italiens</a><br/><span
+                                                class="text-grey-ok small">20 avr. 2023</span>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li>
+                                <div class="img-container mb-3">
+                                    <a href="/livres/selection-thematique-encore-plus-d-italie,1627.html">
+                                        <picture>
+                                            <source data-srcset="/static/cache/img/selections/prod-1627-xs.webp"
+                                                    type="image/webp" data-src="webpxs">
+                                            <source data-srcset="/static/cache/img/selections/prod-1627-xs.png"
+                                                    type="image/jpg" data-src="jpgxs">
+                                            <img class="lazy couverture"
+                                                 src="/static/build/images/chargement-selections.png"
+                                                 alt="Encore plus d&#039;Italie"/>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="">
+                                    <div class="mb-2">
+                                        <a href="/livres/selection-thematique-encore-plus-d-italie,1627.html"
+                                           class="selection-title fw-bold">Encore plus d&#039;Italie</a><br/><span
+                                                class="text-grey-ok small">20 avr. 2023</span>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li>
+                                <div class="img-container mb-3">
+                                    <a href="/livres/selection-thematique-livres-de-recettes,1625.html">
+                                        <picture>
+                                            <source data-srcset="/static/cache/img/selections/prod-1625-xs.webp"
+                                                    type="image/webp" data-src="webpxs">
+                                            <source data-srcset="/static/cache/img/selections/prod-1625-xs.png"
+                                                    type="image/jpg" data-src="jpgxs">
+                                            <img class="lazy couverture"
+                                                 src="/static/build/images/chargement-selections.png"
+                                                 alt="Livres de recettes"/>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="">
+                                    <div class="mb-2">
+                                        <a href="/livres/selection-thematique-livres-de-recettes,1625.html"
+                                           class="selection-title fw-bold">Livres de recettes</a><br/><span
+                                                class="text-grey-ok small">19 avr. 2023</span>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li>
+                                <div class="img-container mb-3">
+                                    <a href="/livres/selection-thematique-nouveautes-bd,1613.html">
+                                        <picture>
+                                            <source data-srcset="/static/cache/img/selections/prod-1613-xs.webp"
+                                                    type="image/webp" data-src="webpxs">
+                                            <source data-srcset="/static/cache/img/selections/prod-1613-xs.png"
+                                                    type="image/jpg" data-src="jpgxs">
+                                            <img class="lazy couverture"
+                                                 src="/static/build/images/chargement-selections.png"
+                                                 alt="Nouveautés BD"/>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="">
+                                    <div class="mb-2">
+                                        <a href="/livres/selection-thematique-nouveautes-bd,1613.html"
+                                           class="selection-title fw-bold">Nouveautés BD</a><br/><span
+                                                class="text-grey-ok small">6 avr. 2023</span>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li>
+                                <div class="img-container mb-3">
+                                    <a href="/livres/selection-thematique-jeux-de-cartes-et-societe,1604.html">
+                                        <picture>
+                                            <source data-srcset="/static/cache/img/selections/prod-1604-xs.webp"
+                                                    type="image/webp" data-src="webpxs">
+                                            <source data-srcset="/static/cache/img/selections/prod-1604-xs.png"
+                                                    type="image/jpg" data-src="jpgxs">
+                                            <img class="lazy couverture"
+                                                 src="/static/build/images/chargement-selections.png"
+                                                 alt="Jeux de cartes &amp; société"/>
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="">
+                                    <div class="mb-2">
+                                        <a href="/livres/selection-thematique-jeux-de-cartes-et-societe,1604.html"
+                                           class="selection-title fw-bold">Jeux de cartes &amp; société</a><br/><span
+                                                class="text-grey-ok small">28 mars 2023</span>
+                                    </div>
+                                </div>
+                            </li>
+                                                  
+                            
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+            <div id="bloc-opinions" class="slider-main-container">
+        <div class="row bloc-title">
+            <div class="col-xs-12 col-md-10 slider-header">
+                <h2>Les conseils des libraires</h2>
+            </div>
+            <div class="d-none d-md-block col-md-2 text-end">
+                <a href="/livres/conseils-de-lecture-de-nos-libraires.html"
+                   class="btn btn-outline-brand-1 btn-text-22 px-4 rounded-1 d-block d-md-inline w-100" role="button">
+                    <span class="d-md-none">
+                        Voir tous les conseils
+                    </span>
+                    <span class="d-none d-md-inline">
+                        Voir tout
+                    </span>
+                </a>
+            </div>
+            <div class="row g-3 bloc-content">
+                                                            <div class="col-12 mb-4 ">
+                            <div class="row min-h-100 bg-white py-2 p-sm-4 shadow">
+                                <div class="col-3 col-sm-2 mb-3">
+                                    <div class="h-100 card-img-left d-flex flex-column justify-content-start">
+                                        <a href="/livres/nos-peres-nos-freres-nos-amis--dans-la-tete-des-hommes-violents_0-9135202_9791037506313.html?ctx=b79d4ab0b2967df54d79c216cc50cca8">
+                                            <picture>
+                                                <source
+                                                        data-srcset="/static/cache/img/livres/313/9791037506313-xs.webp"
+                                                        type="image/webp"
+                                                        data-src="webpxs">
+                                                <source
+                                                        data-srcset="/static/cache/img/livres/313/9791037506313-xs.jpg"
+                                                        type="image/jpg"
+                                                        data-src="jpgxs">
+                                                <img src="/static/build/images/chargement-de-la-couv-xs.jpg"
+                                                     alt="Nos pères, nos frères, nos amis : dans la tête des hommes violents"
+                                                     title="Nos pères, nos frères, nos amis : dans la tête des hommes violents" data-ean="9791037506313"
+                                                     class="lazy couverture max-vh-25  w-100 object-fit-contain"/>
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-9 col-sm-10 d-flex flex-column justify-content-between">
+                                    <div>
+                                        <span class="text-bold"><a
+                                                    href="/livres/nos-peres-nos-freres-nos-amis--dans-la-tete-des-hommes-violents_0-9135202_9791037506313.html?ctx=b79d4ab0b2967df54d79c216cc50cca8">Nos pères, nos frères, nos amis : dans la tête des hommes violents</a></span>
+                                        <span class="mb-3 fst-italic small"> de Mathieu Palain</span>
+                                        <div class="text-decoration-underline text-brand-1">LIBRAIRIE L&#039;UTOPIE</div>
+
+                                        <div class="fs-4">
+                                                                                        <p>De l'autre côté des violences conjugales, ou la partie qui manquait dans la réflexion sur la violences faites aux femmes. Mathieu Palain a enquêté pendant 4 ans pour tenter de comprendre les mécanismes de ces comportements. Il interroge la psyché des hommes violents, mais aussi les réactions de la justice et leur efficacité. Ainsi, l'auteur nous incite, en tant que société, à repenser notre rapport à la violence de manière générale.<br></p>
+                                                                                    </div>
+                                    </div>
+                                    <div class="align-self-end">
+                                        
+    <div class="bloc-infos-panier">
+            <div class="row">
+            <div class="col text-nowrap">
+                                    <form method="post" action="/catalogue-ajax/add-to-cart"
+                          title="Ajouter au panier"
+                          id="form-add-9791037506313" class="form-addtocart">
+                        <input type="hidden" name="id" value="0-9135202"/>
+                        <input type="hidden" name="lang" value="FR"/>
+                        <input type="hidden" name="ean" value="9791037506313"/>
+                        <input type="hidden" name="qte" value="1"/>
+                        <input type="hidden" name="price" value="20.00"/>
+                        <input type="hidden" name="titreCourt"
+                               value=" Nos pères, nos frères, nos amis : dans la tête des hommes violents"/>
+                        
+                        
+                        
+                        <a href="#"
+                           class="btn-brand-2 btn btAddToCart d-flex justify-content-end w-100 "
+                                                                                        >
+                            <span class="cart">
+                                <i class="icon icon-cart align-bottom"></i>
+                                                            </span>
+                            <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                <span class="prix" itemprop="price">20,00</span>
+                                <meta itemprop="priceCurrency" content="EUR"/> €
+                            </span>
+                        </a>
+                    </form>
+                            </div>
+                    </div>
+    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                                                <div class="col-12 mb-4 ">
+                            <div class="row min-h-100 bg-white py-2 p-sm-4 shadow">
+                                <div class="col-3 col-sm-2 mb-3">
+                                    <div class="h-100 card-img-left d-flex flex-column justify-content-start">
+                                        <a href="/livres/sex-and-the-series_0-9641707_9782757897478.html?ctx=b79d4ab0b2967df54d79c216cc50cca8">
+                                            <picture>
+                                                <source
+                                                        data-srcset="/static/cache/img/livres/478/9782757897478-xs.webp"
+                                                        type="image/webp"
+                                                        data-src="webpxs">
+                                                <source
+                                                        data-srcset="/static/cache/img/livres/478/9782757897478-xs.jpg"
+                                                        type="image/jpg"
+                                                        data-src="jpgxs">
+                                                <img src="/static/build/images/chargement-de-la-couv-xs.jpg"
+                                                     alt="Sex and the series"
+                                                     title="Sex and the series" data-ean="9782757897478"
+                                                     class="lazy couverture max-vh-25  w-100 object-fit-contain"/>
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-9 col-sm-10 d-flex flex-column justify-content-between">
+                                    <div>
+                                        <span class="text-bold"><a
+                                                    href="/livres/sex-and-the-series_0-9641707_9782757897478.html?ctx=b79d4ab0b2967df54d79c216cc50cca8">Sex and the series</a></span>
+                                        <span class="mb-3 fst-italic small"> de Iris Brey</span>
+                                        <div class="text-decoration-underline text-brand-1">LIBRAIRIE L&#039;UTOPIE</div>
+
+                                        <div class="fs-4">
+                                                                                        <p>La théoricienne du <i>female gaze</i> s'attaque à la sexualité féminine dans les séries ! Une étude des plus pertinentes, qui dévoile l'histoire et le potentiel de cette représentation sérielle. CAPTIVANT !<br></p>
+                                                                                    </div>
+                                    </div>
+                                    <div class="align-self-end">
+                                        
+    <div class="bloc-infos-panier">
+            <div class="row">
+            <div class="col text-nowrap">
+                                    <form method="post" action="/catalogue-ajax/add-to-cart"
+                          title="Ajouter au panier"
+                          id="form-add-9782757897478" class="form-addtocart">
+                        <input type="hidden" name="id" value="0-9641707"/>
+                        <input type="hidden" name="lang" value="FR"/>
+                        <input type="hidden" name="ean" value="9782757897478"/>
+                        <input type="hidden" name="qte" value="1"/>
+                        <input type="hidden" name="price" value="7.90"/>
+                        <input type="hidden" name="titreCourt"
+                               value=" Sex and the series"/>
+                        
+                        
+                        
+                        <a href="#"
+                           class="btn-brand-2 btn btAddToCart d-flex justify-content-end w-100 "
+                                                                                        >
+                            <span class="cart">
+                                <i class="icon icon-cart align-bottom"></i>
+                                                            </span>
+                            <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                <span class="prix" itemprop="price">7,90</span>
+                                <meta itemprop="priceCurrency" content="EUR"/> €
+                            </span>
+                        </a>
+                    </form>
+                            </div>
+                    </div>
+    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                                                                                                                                                                                                                                                                            </div>
+        </div>
+
+    </div>
+
+            <div class="slider-main-container dernières_parutions-container">
+    <div class="dernières_parutions-slider swiffy-slider
+                slider-item-show6
+                slider-item-responsive2                slider-item-ratio-contain
+                slider-nav-animation
+                slider-nav-animation-fadein
+                slider-nav-visible
+                slider-nav-page
+                "
+    >
+        
+
+            <div id="bloc-reviews" class="slider-main-container">
+        <div class="row bloc-title">
+            <div class="col-md-8 order-0 slider-header justify-content-start ">
+                <h2>Les avis des lecteurs de notre communauté</h2>
+            </div>
+            <div class="col-12 col-md-4 text-end order-last order-md-1">
+                <a href="/livres/avis-de-notre-communaute-de-lecteurs.html"
+                   class="btn btn-outline-brand-1 btn-text-22 px-4 rounded-1 d-block d-md-inline w-100" role="button">
+                    <span class="d-md-none">
+                        Voir tous les avis
+                    </span>
+                    <span class="d-none d-md-inline">
+                        Voir tout
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row gy-3 gx-5 bloc-content p-0 m-0">
+                                                <div class="col-12 col-md-6 mb-4 ">
+                        <div class="row min-h-100 justify-content-between py-2 p-sm-4 bg-white shadow">
+                            <div class="col-3 col-sm-4 mb-3">
+                                <div class="h-100 card-img-left d-flex flex-column justify-content-start">
+                                    <a href="/livres/saint-guilhem-le-desert--terre-de-legendes_0-379468_9782952091152.html?ctx=bf5f35ee86c95cbd80bdd2f374b10684">
+                                        <picture>
+                                            <source
+                                                    data-srcset="/static/cache/img/livres/152/9782952091152-xs.webp"
+                                                    type="image/webp"
+                                                    data-src="webpxs">
+                                            <source
+                                                    data-srcset="/static/cache/img/livres/152/9782952091152-xs.jpg"
+                                                    type="image/jpg"
+                                                    data-src="jpgxs">
+                                            <img src="/static/build/images/chargement-de-la-couv-xs.jpg"
+                                                 alt="Saint-Guilhem-le-Désert : terre de légendes"
+                                                 title="Saint-Guilhem-le-Désert : terre de légendes" data-ean="9782952091152"
+                                                 class="lazy couverture max-vh-25  w-100 object-fit-contain"/>
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-9 col-sm-8 d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="fw-bold mb-0"><a href="/livres/saint-guilhem-le-desert--terre-de-legendes_0-379468_9782952091152.html?ctx=bf5f35ee86c95cbd80bdd2f374b10684">Saint-Guilhem-le-Désert : terre de légendes</a>
+                                    </p>
+                                    <p class="mb-3 small">                                            Christian Palaysi
+                                        </p>
+
+                                    <p class="mb-2">
+                                                                                    Remi P.
+                                                                                <span
+                                                class="text-grey-ok fs-5">(le 26/04/2023)</span>
+                                    </p>
+
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="star-rating me-2" data-rating="5"
+                                             readonly="readonly"></div>
+                                                                            </div>
+
+                                    <p class="fs-4">Très bien  </p>
+
+                                </div>
+                                <div class="align-self-end">
+                                    
+    <div class="bloc-infos-panier">
+            <div class="row">
+            <div class="col text-nowrap">
+                                    <form method="post" action="/catalogue-ajax/add-to-cart"
+                          title="Ajouter au panier"
+                          id="form-add-9782952091152" class="form-addtocart">
+                        <input type="hidden" name="id" value="0-379468"/>
+                        <input type="hidden" name="lang" value="FR"/>
+                        <input type="hidden" name="ean" value="9782952091152"/>
+                        <input type="hidden" name="qte" value="1"/>
+                        <input type="hidden" name="price" value="20.00"/>
+                        <input type="hidden" name="titreCourt"
+                               value=" Saint-Guilhem-le-Désert : terre de légendes"/>
+                        
+                        
+                        
+                        <a href="#"
+                           class="btn-brand-2 btn btAddToCart d-flex justify-content-end w-100 "
+                                                                                        >
+                            <span class="cart">
+                                <i class="icon icon-cart align-bottom"></i>
+                                                            </span>
+                            <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                <span class="prix" itemprop="price">20,00</span>
+                                <meta itemprop="priceCurrency" content="EUR"/> €
+                            </span>
+                        </a>
+                    </form>
+                            </div>
+                    </div>
+    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                                                <div class="col-12 col-md-6 mb-4 ">
+                        <div class="row min-h-100 justify-content-between py-2 p-sm-4 bg-white shadow">
+                            <div class="col-3 col-sm-4 mb-3">
+                                <div class="h-100 card-img-left d-flex flex-column justify-content-start">
+                                    <a href="/livres/dits-n--15--la-repetition_0-1205920_9782930368429.html?ctx=bf5f35ee86c95cbd80bdd2f374b10684">
+                                        <picture>
+                                            <source
+                                                    data-srcset="/static/cache/img/livres/429/9782930368429-xs.webp"
+                                                    type="image/webp"
+                                                    data-src="webpxs">
+                                            <source
+                                                    data-srcset="/static/cache/img/livres/429/9782930368429-xs.jpg"
+                                                    type="image/jpg"
+                                                    data-src="jpgxs">
+                                            <img src="/static/build/images/chargement-de-la-couv-xs.jpg"
+                                                 alt="Dits, n° 15. La répétition"
+                                                 title="Dits, n° 15. La répétition" data-ean="9782930368429"
+                                                 class="lazy couverture max-vh-25  w-100 object-fit-contain"/>
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-9 col-sm-8 d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="fw-bold mb-0"><a href="/livres/dits-n--15--la-repetition_0-1205920_9782930368429.html?ctx=bf5f35ee86c95cbd80bdd2f374b10684">Dits, n° 15. La répétition</a>
+                                    </p>
+                                    <p class="mb-3 small"></p>
+
+                                    <p class="mb-2">
+                                                                                    Agnès K.
+                                                                                <span
+                                                class="text-grey-ok fs-5">(le 26/04/2023)</span>
+                                    </p>
+
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="star-rating me-2" data-rating="4"
+                                             readonly="readonly"></div>
+                                                                            </div>
+
+                                    <p class="fs-4">Très intéressant, correspond à ce que je cherchais. </p>
+
+                                </div>
+                                <div class="align-self-end">
+                                    
+    <div class="bloc-infos-panier">
+            <div class="row">
+            <div class="col text-nowrap">
+                                    <form method="post" action="/catalogue-ajax/add-to-cart"
+                          title="Ajouter au panier"
+                          id="form-add-9782930368429" class="form-addtocart">
+                        <input type="hidden" name="id" value="0-1205920"/>
+                        <input type="hidden" name="lang" value="FR"/>
+                        <input type="hidden" name="ean" value="9782930368429"/>
+                        <input type="hidden" name="qte" value="1"/>
+                        <input type="hidden" name="price" value="18.30"/>
+                        <input type="hidden" name="titreCourt"
+                               value=" Dits, n° 15. La répétition"/>
+                        
+                        
+                        
+                        <a href="#"
+                           class="btn-brand-2 btn btAddToCart d-flex justify-content-end w-100 "
+                                                                                        >
+                            <span class="cart">
+                                <i class="icon icon-cart align-bottom"></i>
+                                                            </span>
+                            <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                <span class="prix" itemprop="price">18,30</span>
+                                <meta itemprop="priceCurrency" content="EUR"/> €
+                            </span>
+                        </a>
+                    </form>
+                            </div>
+                    </div>
+    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                                                <div class="col-12 col-md-6 mb-4 d-none d-lg-block ">
+                        <div class="row min-h-100 justify-content-between py-2 p-sm-4 bg-white shadow">
+                            <div class="col-3 col-sm-4 mb-3">
+                                <div class="h-100 card-img-left d-flex flex-column justify-content-start">
+                                    <a href="/livres/l-esperance-ou-la-traversee-de-l-impossible_0-9130554_9782743658472.html?ctx=bf5f35ee86c95cbd80bdd2f374b10684">
+                                        <picture>
+                                            <source
+                                                    data-srcset="/static/cache/img/livres/472/9782743658472-xs.webp"
+                                                    type="image/webp"
+                                                    data-src="webpxs">
+                                            <source
+                                                    data-srcset="/static/cache/img/livres/472/9782743658472-xs.jpg"
+                                                    type="image/jpg"
+                                                    data-src="jpgxs">
+                                            <img src="/static/build/images/chargement-de-la-couv-xs.jpg"
+                                                 alt="L&#039;espérance, ou La traversée de l&#039;impossible"
+                                                 title="L&#039;espérance, ou La traversée de l&#039;impossible" data-ean="9782743658472"
+                                                 class="lazy couverture max-vh-25  w-100 object-fit-contain"/>
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-9 col-sm-8 d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="fw-bold mb-0"><a href="/livres/l-esperance-ou-la-traversee-de-l-impossible_0-9130554_9782743658472.html?ctx=bf5f35ee86c95cbd80bdd2f374b10684">L&#039;espérance, ou La traversée de l&#039;impossible</a>
+                                    </p>
+                                    <p class="mb-3 small">                                            Corine Pelluchon
+                                        </p>
+
+                                    <p class="mb-2">
+                                                                                    <a class="underlined-link-brand1"
+                                               href="/livres/avis-de-notre-lecteur-gil-m-,5060.html">Gil M.</a>
+                                                                                <span
+                                                class="text-grey-ok fs-5">(le 26/04/2023)</span>
+                                    </p>
+
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="star-rating me-2" data-rating="5"
+                                             readonly="readonly"></div>
+                                        <span
+                                                class="text-grey-ok fw-bold fs-4">Un livre pour trouver en soi des ressources</span>                                    </div>
+
+                                    <p class="fs-4">Un livre qui pourrait parfaitement compléter la bibliographie autour du Travail qui relie, initié par Joana Macy. Dans ce même esprit – hérité chez cette dernière du bouddhisme tibétain –, de plonger a...                                         <a
+                                                href="/livres/avis-des-lecteurs-sur-l-esperance-ou-la-traversee-de-l-impossible,9782743658472.html?ctx=bf5f35ee86c95cbd80bdd2f374b10684"
+                                                class="text-decoration-underline text-brand-1">Lire la
+                                                suite</a></p>
+
+                                </div>
+                                <div class="align-self-end">
+                                    
+    <div class="bloc-infos-panier">
+            <div class="row">
+            <div class="col text-nowrap">
+                                    <form method="post" action="/catalogue-ajax/add-to-cart"
+                          title="Ajouter au panier"
+                          id="form-add-9782743658472" class="form-addtocart">
+                        <input type="hidden" name="id" value="0-9130554"/>
+                        <input type="hidden" name="lang" value="FR"/>
+                        <input type="hidden" name="ean" value="9782743658472"/>
+                        <input type="hidden" name="qte" value="1"/>
+                        <input type="hidden" name="price" value="18.00"/>
+                        <input type="hidden" name="titreCourt"
+                               value=" L&#039;espérance, ou La traversée de l&#039;impossible"/>
+                        
+                        
+                        
+                        <a href="#"
+                           class="btn-brand-2 btn btAddToCart d-flex justify-content-end w-100 "
+                                                                                        >
+                            <span class="cart">
+                                <i class="icon icon-cart align-bottom"></i>
+                                                            </span>
+                            <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                <span class="prix" itemprop="price">18,00</span>
+                                <meta itemprop="priceCurrency" content="EUR"/> €
+                            </span>
+                        </a>
+                    </form>
+                            </div>
+                    </div>
+    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                                                <div class="col-12 col-md-6 mb-4 d-none d-lg-block ">
+                        <div class="row min-h-100 justify-content-between py-2 p-sm-4 bg-white shadow">
+                            <div class="col-3 col-sm-4 mb-3">
+                                <div class="h-100 card-img-left d-flex flex-column justify-content-start">
+                                    <a href="/livres/l-ecorce-miraculeuse--le-remede-qui-changea-le-monde_0-336659_9782882501837.html?ctx=bf5f35ee86c95cbd80bdd2f374b10684">
+                                        <picture>
+                                            <source
+                                                    data-srcset="/static/cache/img/livres/837/9782882501837-xs.webp"
+                                                    type="image/webp"
+                                                    data-src="webpxs">
+                                            <source
+                                                    data-srcset="/static/cache/img/livres/837/9782882501837-xs.jpg"
+                                                    type="image/jpg"
+                                                    data-src="jpgxs">
+                                            <img src="/static/build/images/chargement-de-la-couv-xs.jpg"
+                                                 alt="L&#039;écorce miraculeuse : le remède qui changea le monde"
+                                                 title="L&#039;écorce miraculeuse : le remède qui changea le monde" data-ean="9782882501837"
+                                                 class="lazy couverture max-vh-25  w-100 object-fit-contain"/>
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-9 col-sm-8 d-flex flex-column justify-content-between">
+                                <div>
+                                    <p class="fw-bold mb-0"><a href="/livres/l-ecorce-miraculeuse--le-remede-qui-changea-le-monde_0-336659_9782882501837.html?ctx=bf5f35ee86c95cbd80bdd2f374b10684">L&#039;écorce miraculeuse : le remède qui changea le monde</a>
+                                    </p>
+                                    <p class="mb-3 small">                                            Fiammetta Rocco
+                                        </p>
+
+                                    <p class="mb-2">
+                                                                                    nicole r.
+                                                                                <span
+                                                class="text-grey-ok fs-5">(le 26/04/2023)</span>
+                                    </p>
+
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="star-rating me-2" data-rating="5"
+                                             readonly="readonly"></div>
+                                        <span
+                                                class="text-grey-ok fw-bold fs-4">Kenyan </span>                                    </div>
+
+                                    <p class="fs-4">J’aime le fond et la forme 
+La saga familiale et les risques de mal’aria vus sous un angle différent  </p>
+
+                                </div>
+                                <div class="align-self-end">
+                                    
+    <div class="bloc-infos-panier">
+            <div class="row">
+            <div class="col text-nowrap">
+                                    <form method="post" action="/catalogue-ajax/add-to-cart"
+                          title="Ajouter au panier"
+                          id="form-add-9782882501837" class="form-addtocart">
+                        <input type="hidden" name="id" value="0-336659"/>
+                        <input type="hidden" name="lang" value="FR"/>
+                        <input type="hidden" name="ean" value="9782882501837"/>
+                        <input type="hidden" name="qte" value="1"/>
+                        <input type="hidden" name="price" value="23.35"/>
+                        <input type="hidden" name="titreCourt"
+                               value=" L&#039;écorce miraculeuse : le remède qui changea le monde"/>
+                        
+                        
+                        
+                        <a href="#"
+                           class="btn-brand-2 btn btAddToCart d-flex justify-content-end w-100 "
+                                                                                        >
+                            <span class="cart">
+                                <i class="icon icon-cart align-bottom"></i>
+                                                            </span>
+                            <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                <span class="prix" itemprop="price">23,35</span>
+                                <meta itemprop="priceCurrency" content="EUR"/> €
+                            </span>
+                        </a>
+                    </form>
+                            </div>
+                    </div>
+    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                                                                                                        </div>
+    </div>
+
+
+            <div class="slider-main-container bestseller-container">
+    <div class="bestseller-slider swiffy-slider
+                slider-item-show6
+                slider-item-responsive2                slider-item-ratio-contain
+                slider-nav-animation
+                slider-nav-animation-fadein
+                slider-nav-visible
+                slider-nav-page
+                "
+    >
+        <div class="row">
+            <div class="slider-header col-md-8 justify-content-start order-0">
+                <h2>
+                                            Meilleures Ventes
+                                    </h2>
+                                    <div class="slider-nav-container d-none d-md-block">
+                        <button type="button" class="slider-nav slider-nav-prev"></button>
+                        <button type="button" class="slider-nav slider-nav-next"></button>
+                    </div>
+                            </div>
+                            <div class="col-12 col-md-4 order-last order-md-1 text-end ">
+                    <a href="/livres/meilleures-ventes.html"
+                       class="btn btn-outline-brand-1 btn-text-22 px-4 rounded-1 d-block d-md-inline"
+                       role="button"
+                    >
+                        <span class="d-md-none">Voir toutes les meilleures ventes</span><span class="d-none d-md-inline">Voir tout</span>
+                    </a>
+                </div>
+            
+            <div class="col-12 order-md-2 my-2">
+                <ul class="slider-container">
+                                            <li>
+                            <div class="img-container mb-3">
+                                <a href="/livres/nos-etoiles-contraires_0-4582662_9782266283304.html?ctx=2ae2c50b4cb999874130d201bdefac5b">
+                                    <picture>
+                                        <picture>
+                                            <source
+                                                    data-srcset="/static/cache/img/livres/304/9782266283304-xs.webp"
+                                                    type="image/webp"
+                                                    data-src="webpxs">
+                                            <source
+                                                    data-srcset="/static/cache/img/livres/304/9782266283304-xs.jpg"
+                                                    type="image/jpg"
+                                                    data-src="jpgxs">
+                                            <img src="/static/build/images/chargement-de-la-couv-xs.jpg"
+                                                 alt="Nos étoiles contraires"
+                                                 title="Nos étoiles contraires"
+                                                 data-ean="9782266283304"
+                                                 class="lazy couverture"
+                                                                                                />
+                                        </picture>
+                                </a>
+                            </div>
+                            <div class="">
+                                <div class="mb-2">
+                                    <a href="/livres/nos-etoiles-contraires_0-4582662_9782266283304.html?ctx=2ae2c50b4cb999874130d201bdefac5b"
+                                       class="product-title">Nos étoiles contraires</a><br/>
+                                    <span class="small">John Green</span>
+                                </div>
+                                
+    <div class="bloc-add-to-cart ">
+                            <form method="post" action="/catalogue-ajax/add-to-cart"
+              title="Ajouter au panier"
+              id="form-add-9782266283304-1221791644" class="form-addtocart">
+            <input type="hidden" name="id" value="0-4582662"/>
+            <input type="hidden" name="lang" value="FR"/>
+            <input type="hidden" name="ean" value="9782266283304"/>
+            <input type="hidden" name="qte" value="1"/>
+            <input type="hidden" name="price" value="8.10"/>
+            <input type="hidden" name="titreCourt"
+                   value=" Nos étoiles contraires"/>
+            
+            
+            
+
+            
+            <a href="#"
+               class="btAddToCart btn btn-brand-2 px-3 py-2 "
+                                                    >
+                <span class="spinner-border d-none" role="status" aria-hidden="true"></span>
+                <span class="cart">
+                <i class="icon icon-cart align-middle"></i>
+                            </span>
+                <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span class="prix" itemprop="price">8,10</span>
+                <meta itemprop="priceCurrency" content="EUR"/> €
+            </span>
+            </a>
+        </form>
+    </div>                            </div>
+                        </li>
+                                    
+                        
+                                            <li>
+                            <div class="img-container mb-3">
+                                <a href="/livres/silence-dans-les-champs--enquete_0-9940522_9782080280886.html?ctx=2ae2c50b4cb999874130d201bdefac5b">
+                                    <picture>
+                                        <picture>
+                                            <source
+                                                    data-srcset="/static/cache/img/livres/886/9782080280886-xs.webp"
+                                                    type="image/webp"
+                                                    data-src="webpxs">
+                                            <source
+                                                    data-srcset="/static/cache/img/livres/886/9782080280886-xs.jpg"
+                                                    type="image/jpg"
+                                                    data-src="jpgxs">
+                                            <img src="/static/build/images/chargement-de-la-couv-xs.jpg"
+                                                 alt="Silence dans les champs : enquête"
+                                                 title="Silence dans les champs : enquête"
+                                                 data-ean="9782080280886"
+                                                 class="lazy couverture"
+                                                                                                />
+                                        </picture>
+                                </a>
+                            </div>
+                            <div class="">
+                                <div class="mb-2">
+                                    <a href="/livres/silence-dans-les-champs--enquete_0-9940522_9782080280886.html?ctx=2ae2c50b4cb999874130d201bdefac5b"
+                                       class="product-title">Silence dans les champs : enquête</a><br/>
+                                    <span class="small">LEGENDRE NICOLAS</span>
+                                </div>
+                                
+    <div class="bloc-add-to-cart ">
+                            <form method="post" action="/catalogue-ajax/add-to-cart"
+              title="Ajouter au panier"
+              id="form-add-9782080280886-633939781" class="form-addtocart">
+            <input type="hidden" name="id" value="0-9940522"/>
+            <input type="hidden" name="lang" value="FR"/>
+            <input type="hidden" name="ean" value="9782080280886"/>
+            <input type="hidden" name="qte" value="1"/>
+            <input type="hidden" name="price" value="20.00"/>
+            <input type="hidden" name="titreCourt"
+                   value=" Silence dans les champs : enquête"/>
+            
+            
+            
+
+            
+            <a href="#"
+               class="btAddToCart btn btn-brand-2 px-3 py-2 "
+                                                    >
+                <span class="spinner-border d-none" role="status" aria-hidden="true"></span>
+                <span class="cart">
+                <i class="icon icon-cart align-middle"></i>
+                            </span>
+                <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span class="prix" itemprop="price">20,00</span>
+                <meta itemprop="priceCurrency" content="EUR"/> €
+            </span>
+            </a>
+        </form>
+    </div>                            </div>
+                        </li>
+                                          
+                                    
+                             
+                                            <li>
+                            <div class="img-container mb-3">
+                                <a href="/livres/mortelle-adele--vol--17--karmastrophique_0-6488581_9791027608614.html?ctx=2ae2c50b4cb999874130d201bdefac5b">
+                                    <picture>
+                                        <picture>
+                                            <source
+                                                    data-srcset="/static/cache/img/livres/614/9791027608614-xs.webp"
+                                                    type="image/webp"
+                                                    data-src="webpxs">
+                                            <source
+                                                    data-srcset="/static/cache/img/livres/614/9791027608614-xs.jpg"
+                                                    type="image/jpg"
+                                                    data-src="jpgxs">
+                                            <img src="/static/build/images/chargement-de-la-couv-xs.jpg"
+                                                 alt="Mortelle Adèle. Vol. 17. Karmastrophique"
+                                                 title="Mortelle Adèle. Vol. 17. Karmastrophique"
+                                                 data-ean="9791027608614"
+                                                 class="lazy couverture"
+                                                                                                />
+                                        </picture>
+                                </a>
+                            </div>
+                            <div class="">
+                                <div class="mb-2">
+                                    <a href="/livres/mortelle-adele--vol--17--karmastrophique_0-6488581_9791027608614.html?ctx=2ae2c50b4cb999874130d201bdefac5b"
+                                       class="product-title">Mortelle Adèle. Vol. 17. Karmastrophique</a><br/>
+                                    <span class="small">Diane Le Feyer, Tan</span>
+                                </div>
+                                
+    <div class="bloc-add-to-cart ">
+                            <form method="post" action="/catalogue-ajax/add-to-cart"
+              title="Ajouter au panier"
+              id="form-add-9791027608614-2104538416" class="form-addtocart">
+            <input type="hidden" name="id" value="0-6488581"/>
+            <input type="hidden" name="lang" value="FR"/>
+            <input type="hidden" name="ean" value="9791027608614"/>
+            <input type="hidden" name="qte" value="1"/>
+            <input type="hidden" name="price" value="11.50"/>
+            <input type="hidden" name="titreCourt"
+                   value=" Mortelle Adèle. Vol. 17. Karmastrophique"/>
+            
+            
+            
+
+            
+            <a href="#"
+               class="btAddToCart btn btn-brand-2 px-3 py-2 "
+                                                    >
+                <span class="spinner-border d-none" role="status" aria-hidden="true"></span>
+                <span class="cart">
+                <i class="icon icon-cart align-middle"></i>
+                            </span>
+                <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <span class="prix" itemprop="price">11,50</span>
+                <meta itemprop="priceCurrency" content="EUR"/> €
+            </span>
+            </a>
+        </form>
+    </div>                            </div>
+                        </li>
+        </div>
+
+
+    </div>
+</div>
+
+
+    </div>
+            <div class="container-fluid main-footer-container">
+                    <div class="container-fluid p-5 bg-grey">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-10">
+            <h2 class="text-center h4">Découvrez nos rayons</h2>
+            <p class="text-center text-end">
+                                    <a class="h3" href="/livres/rayon-litterature,2063.html">
+                                                    Littérature
+                                            </a>
+                     -                                     <a class="h3" href="/livres/rayon-bd-mangas,985.html">
+                                                    BD, mangas
+                                            </a>
+                     -                                     <a class="h3" href="/livres/rayon-jeunesse,1.html">
+                                                    Jeunesse
+                                            </a>
+                     -                                     <a class="h3" href="/livres/rayon-vie-pratique-bien-etre,720.html">
+                                                    Vie pratique, bien-être
+                                            </a>
+                     -                                     <a class="h3" href="/livres/rayon-loisirs-nature-voyages,1717.html">
+                                                    Loisirs, nature, voyages
+                                            </a>
+                     -                                     <a class="h3" href="/livres/rayon-science,788.html">
+                                                    Science
+                                            </a>
+                     -                                     <a class="h3" href="/livres/rayon-scolaire-et-apprentissage,1337.html">
+                                                    Scolaire et apprentissage
+                                            </a>
+                     -                                     <a class="h3" href="/livres/rayon-arts,914.html">
+                                                    Arts
+                                            </a>
+                     -                                     <a class="h3" href="/livres/rayon-sciences-humaines,762.html">
+                                                    Sciences humaines
+                                            </a>
+                     -                                     <a class="h3" href="/livres/rayon-economie-gestion-droit,1250.html">
+                                                    Economie, gestion, droit
+                                            </a>
+                                                </p>
+        </div>
+    </div>
+</div>    <div class="container py-5">
+    <div class="row flex-md-row flex-column-reverse justify-content-between">
+        <div class="c-12 col-lg-6">
+            <div class="h4 mb-3">Pourquoi acheter vos livres sur notre site ?</div>
+            <p class="mb-3">Le principe de notre site de vente de livres repose sur l'utilisation des canaux modernes
+                d'informations et de commandes à travers un site doté d'une base de données bibliographiques
+                d'un
+                million de
+                références, d'une plate-forme logistique avec un stock de près de 350 000 références, de l'expertise de
+                ses nombreux libraires (pas des algorithmes) et enfin plusieurs milliers de livres
+                chroniqués
+                pour mieux vous conseiller.</p>
+            <a href="info/qui-sommes-nous.html" class="btn btn-outline-brand-2 mt-2">En savoir
+                plus</a>
+        </div>
+        <div class="col-12 col-lg-6 d-flex justify-content-center align-content-center mb-3 mb-lg-0">
+            <picture>
+                <source data-srcset="/static/build/images/content/qui_sommes_nous_2.webp" media="(min-width: 600px)">
+                <source data-srcset="/static/build/images/content/qui_sommes_nous_2_xs.webp">
+                <img class="lazy w-100 rounded" src="/static/build/images/chargement-de-la-couv-xs.jpg"
+                     alt="qui-sommes-nous">
+            </picture>
+        </div>
+    </div>
+</div>
+
+    <div class="component-newsletter text-white py-5 px-5 align-items-start">
+    <div class="container">
+
+            <div class="row">
+                <div class="col-sm-12 col-lg-3 pb-1 h3">
+                    <p>Nous suivre</p>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <p class="pb-1 h4">Réseaux sociaux</p>
+                    <ul class="d-flex flex-row list-unstyled pt-2">
+                        <li class="pe-3"><a target="_blank" href="https://www.instagram.com/lalibrairie.com_off/"><img src="/static/build/images/icons/instagram-white.svg"
+                                                                                                                       alt="lalibrairie.com"></a></li>
+                        <li class="px-3"><a target="_blank" href="https://twitter.com/lalibrairie_com"><img src="/static/build/images/icons/twitter-white.svg"
+                                                                                                            alt="lalibrairie.com"></a></li>
+                        <li class="px-3"><a target="_blank" href="https://www.facebook.com/lalibrairiecom/"><img src="/static/build/images/icons/facebook-white.svg"
+                                                                                                                 alt="lalibrairie.com"></a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <form action="/abonnement-newsletter">
+                        <input type="hidden" name="action" value="validate-inscription" />
+                        <input type="hidden" name="inscriptions[]" value="lalib" />
+                        <label for="newsletter-email" class="form-label"><h4 class="pb-1">Newsletter</h4></label>
+                        <div class="mb-3 input-group">
+                            <input type="email"
+                                   name="email"
+                                   value=""
+                                   class="form-control"
+                                   id="newsletter-email"
+                                   placeholder="Votre adresse e-mail">
+                            <button class="bg-green-brand text-white border-0 px-3 py-2" type="submit"
+                                    value="OK"> S'inscrire</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+    </div>
+</div>            </div>
+        </div>
+    
+    <div class="container-fluid footer bg-green-brand text-white">
+    <div class="row">
+        <div class="col-xs-12 col-lg-3 ps-5">
+            <img data-src="/static/build/images/logo-xs.png" alt="lalibrairie.com" class="lazy logo"/>
+        </div>
+        <div class="col-xs-12 col-lg-3">
+            <div class="row">
+                <div class="col-6 col-lg-12">
+                                            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+                           href="/livres/rayon-litterature,2063.html">
+                                                            Littérature
+                                                    </a>
+                                            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+                           href="/livres/rayon-bd-mangas,985.html">
+                                                            BD, mangas
+                                                    </a>
+                                            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+                           href="/livres/rayon-jeunesse,1.html">
+                                                            Jeunesse
+                                                    </a>
+                                            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+                           href="/livres/rayon-vie-pratique-bien-etre,720.html">
+                                                            Vie pratique, bien-être
+                                                    </a>
+                                            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+                           href="/livres/rayon-loisirs-nature-voyages,1717.html">
+                                                            Loisirs, nature, voyages
+                                                    </a>
+                                            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+                           href="/livres/rayon-science,788.html">
+                                                            Science
+                                                    </a>
+                                            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+                           href="/livres/rayon-scolaire-et-apprentissage,1337.html">
+                                                            Scolaire et apprentissage
+                                                    </a>
+                                            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+                           href="/livres/rayon-arts,914.html">
+                                                            Arts
+                                                    </a>
+                                            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+                           href="/livres/rayon-sciences-humaines,762.html">
+                                                            Sciences humaines
+                                                    </a>
+                                            <a class="badge bg-green-brand-2 me-3 mb-3 fs-base fw-normal"
+                           href="/livres/rayon-economie-gestion-droit,1250.html">
+                                                            Economie, gestion, droit
+                                                    </a>
+                                    </div>
+
+            </div>
+            <hr class="bg-green-brand-2 d-block d-lg-none"/>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+            <ul>
+                <li><a href="/livres/bestseller.html">Meilleures ventes</a>
+                </li>
+                <li>
+                    <a href="/livres/selection-thematique-science-fiction-2021,1338.html">Lectures
+                                                                                                                         recommandées</a></li>
+                <li><a
+                            href="/livres/selection-thematique-science-fiction-2021,1338.html">Nos
+                                                                                                                                 sélections de livres</a></li>
+                                    <li><a href="/choisir-un-point-libraire.html">Choisir son point libraire</a></li>
+                    <li><a href="/info/devenir-point-libraire.html" target="_blank">Devenez Point Libraire</a>
+                    </li>
+                    <li><a href="/info/nos-partenaires.html">Tous nos Points Libraires</a></li>
+                            </ul>
+            <hr class="bg-green-brand-2 d-block d-sm-none"/>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+            <ul>
+                                    <li><a href="/espace-client/inscription">Créer votre compte</a></li>
+                                <li><a href="/info/faq.html">Besoin d'aide ?</a></li>
+                <li><a href="/info/cgv.html">Conditions générales de vente
+                                                                              lalibrairie.com</a></li>
+                <li><a rel="nofollow"
+                       href="https://numerique.lalibrairie.com/Pages/Aide/FAQ.aspx?idCategorieActive=16#45"
+                       target="_blank">Conditions générales de vente livres numériques</a></li>
+                <li><a href="/info/qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+                <li><a href="/info/mentions-legales.html">Mentions légales</a></li>
+                <li><a href="/info/politique-de-confidentialite.html">Politique de
+                                                                                                       confidentialité</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container-fluid footer2 bg-green-brand-2 text-white">
+    <div class="row align-items-center">
+        <div class="col-xs-8 col-lg-6 fst-italic text-center text-sm-left gy-4 gy-lg-0">
+            Lalibrairie.com est soutenue par le centre national du livre et la région Île de France
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3 text-center gy-4 gy-lg-0">
+            <img data-src="/static/build/images/logo-cnl.png" class="lazy" alt="Centre national du livre"/>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3 text-center gy-4 gy-lg-0">
+            <img data-src="/static/build/images/logo-idf.png" class="lazy" alt="Région Île de France"/>
+        </div>
+    </div>
+</div></section>
+<section id="modals-container"></section>
+<div id="main-overlay" class="d-none"></div>
+
+    <link rel="stylesheet" href="/bundles/chcookieconsent/css/cookie_consent.css"/>
+
+    <script type="text/javascript" src="/bundles/chcookieconsent/js/cookie_consent.js"></script>
+
+<div class="ch-cookie-consent ch-cookie-consent--light-theme ch-cookie-consent--bottom ch-cookie-consent--simplified">
+            <h3 class="ch-cookie-consent__title">Les cookies sur notre site.</h3>
+    
+            <p class="ch-cookie-consent__intro"></p>
+    
+            <a class="ch-cookie-consent__read-more" href="/privacy-statement">En savoir plus</a>
+    
+    <form name="cookie_consent" method="post" action="/" class="ch-cookie-consent__form">
+        <div class="ch-cookie-consent__category-group">
+                                                    <div class="ch-cookie-consent__category">
+        <div class="ch-cookie-consent__category-toggle">
+                            <input type="radio" id="cookie_consent_analytics_0" name="cookie_consent[analytics]" required="required" value="true" /><label for="cookie_consent_analytics_0" class="required">Oui</label>                            <input type="radio" id="cookie_consent_analytics_1" name="cookie_consent[analytics]" required="required" value="false" checked="checked" /><label for="cookie_consent_analytics_1" class="required">Non</label>                    </div>
+        <div class="ch-cookie-consent__category-information">
+            <h4 class="ch-cookie-consent__category-title">Acceptez-vous les cookies analytiques ?</h4>
+            <p class="ch-cookie-consent__category-description"></p>
+        </div>
+    </div>
+
+                                                                    <div class="ch-cookie-consent__category">
+        <div class="ch-cookie-consent__category-toggle">
+                            <input type="radio" id="cookie_consent_social_media_0" name="cookie_consent[social_media]" required="required" value="true" /><label for="cookie_consent_social_media_0" class="required">Oui</label>                            <input type="radio" id="cookie_consent_social_media_1" name="cookie_consent[social_media]" required="required" value="false" checked="checked" /><label for="cookie_consent_social_media_1" class="required">Non</label>                    </div>
+        <div class="ch-cookie-consent__category-information">
+            <h4 class="ch-cookie-consent__category-title">Acceptez-vous les cookies des réseaux sociaux ?</h4>
+            <p class="ch-cookie-consent__category-description"></p>
+        </div>
+    </div>
+
+                                                                                                                        <input type="hidden" id="cookie_consent__token" name="cookie_consent[_token]" value="15d11c247b5fb1c59f35aa51ff.uQZB7VxqBo99lSznGgVvfOser2cBro6vB3RwYh2cCiM.i1kNgAVeK8cf5WmAW2QlEIJw9QJR4eibcgcTUEyqQBSPRySlFhlT2T_9bQ" />
+                                    </div>
+
+        <div class="ch-cookie-consent__btn-group">
+                <div class="ch-cookie-consent__btn-wrapper">
+        <button type="button" id="cookie_consent_use_only_functional_cookies" name="cookie_consent[use_only_functional_cookies]" class="btn ch-cookie-consent__btn">Utiliser uniquement les cookies fonctionnels</button>
+    </div>
+    <div class="ch-cookie-consent__btn-wrapper">
+        <button type="button" id="cookie_consent_use_all_cookies" name="cookie_consent[use_all_cookies]" class="btn ch-cookie-consent__btn ch-cookie-consent__btn--secondary">Accepter tous les cookies</button>
+    </div>
+
+                                                <div class="ch-cookie-consent__toggle-details">
+                        <span class="ch-cookie-consent__toggle-details-show">Afficher les détails</span>
+                        <span class="ch-cookie-consent__toggle-details-hide">Masquer les détails</span>
+                    </div>
+                                    </div>
+    </form>
+</div>
+
+
+
+
+
+<script src="/static/build/runtime.186b529a.js"></script><script src="/static/build/app.494e91dc.js"></script>
+
+
+
+
+</body>
+</html>
