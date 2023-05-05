@@ -5,6 +5,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <title>page non trouvé></title>
+    <link rel="icon" href="/static/build/images/favicon.ico"/>
     <link rel="stylesheet" href="/static/css/nicepage.css" media="screen">
 <link rel="stylesheet" href="/static/css/Accueil.css" media="screen">
     <script class="u-script" type="text/javascript" src="/static/build/jquery.js" defer=""></script>
@@ -61,7 +62,7 @@
           </span>
         </h6>
         <p class="u-text u-text-default u-text-2">Les informations de votre requete sont:</p>
-        <p class="u-text u-text-default u-text-3">Exemple de texte. Cliquez pour sélectionner l'élément de texte.</p>
+        <p class="u-text u-text-default u-text-3"><span style="font-weight: 700;">URL:</span>{{request.url}} <span style="font-weight: 700;">  METHOD:</span> {{request.method}}</p>
         <div class="u-table u-table-responsive u-table-1">
           <table class="u-table-entity">
             <colgroup>
@@ -75,14 +76,13 @@
               </tr>
             </thead>
             <tbody class="u-table-body">
-              <tr style="height: 46px;">
-                <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
+               {% for item, val in request.headers.items()  %}
+
+                <tr style="height: 46px;">
+                  <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{item}}</td>
+                  <td class="u-border-1 u-border-grey-dark-1 u-table-cell">{{val}}</td>
               </tr>
-              <tr style="height: 46px;">
-                <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-                <td class="u-border-1 u-border-grey-dark-1 u-table-cell"></td>
-              </tr>
+              {% endfor %}  
             </tbody>
           </table>
         </div>
