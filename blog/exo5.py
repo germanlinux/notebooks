@@ -28,5 +28,5 @@ class Comptage():
             liste_.append((cle,valeur ))
         return liste_
 
-a = Comptage("Pourquoi , pourquoi , as tu fait ca , tu n'est pas un as de la route. Je voulais voir une fois qu'il effet ca fait" )
+a = Comptage("Pourquoi , pourquoi , as tu fait ca , tu n'es pas un as de la route . Je voulais voir une fois quel effet ca fait" )
 print(a.liste())        
