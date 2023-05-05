@@ -1,5 +1,6 @@
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
+
 @app.errorhandler(404)
 def page_not_found(e):
     # note that we set the 404 status explicitly
@@ -10,4 +11,4 @@ def index():
     return render_template('index.html')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)    # change port in production
+    app.run(host='0.0.0.0', port=80)    # change port in production
