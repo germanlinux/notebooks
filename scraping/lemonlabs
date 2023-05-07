@@ -1,0 +1,29 @@
+#!/bin/bash
+
+case "$1" in 
+start)
+	nohup /usr/bin/python3 /usr/local/scraping/hello.py &
+	echo $!>/var/run/lemonlabs.pid
+	;;
+stop)
+	kill `cat /var/run/lemonlabs.pid`
+	rm /var/run/lemonlabs.pid
+	;;
+restart)
+	$0 stop
+	$0 start
+	;;
+status) 
+	if [ -e /var/run/lemonlabs.pid ]; then
+	   echo lemonlabs is running, pid=`cat /var/run/lemonlabs.pid`
+        else
+	   echo lemonlabs is NOT running
+	   exit 1
+	fi
+	;;
+*)
+    echo "usage: $0 {start|stop|status|restart}"
+ esac
+
+exit 0
+
