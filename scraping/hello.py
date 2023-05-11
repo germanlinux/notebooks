@@ -3,8 +3,8 @@ app = Flask(__name__)
 
 @app.errorhandler(404)
 def page_not_found(e):
-    # note that we set the 404 status explicitly
-    return render_template('notfound.thtml'), 200
+    # note that we set the 203 status explicitly
+    return render_template('notfound.thtml'), 203
 
 @app.route("/livres/selection-thematique-science-fiction-2021,1338.html")
 def livre():

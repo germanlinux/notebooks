@@ -58,7 +58,7 @@
     <section class="u-clearfix u-section-1" id="sec-514e">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h6 class="u-text u-text-1">
-          <span style="font-size: 1.25rem;">La&nbsp; page demandée n'existe pas : ce n'est pas grave.<br>Pour vous aider et ne pas troubler votre collecte, le site retourne un<span style="font-weight: 700;"> code 200: OK</span> plutot qu'un code 404: page not found
+          <span style="font-size: 1.25rem;">La&nbsp; page demandée n'existe pas : ce n'est pas grave.<br>Pour vous aider et ne pas troubler votre collecte, le site retourne un<span style="font-weight: 700;"> code 203</span> plutot qu'un code 404: page not found
           </span>
         </h6>
         <p class="u-text u-text-default u-text-2">Les informations de votre requete sont:</p>
