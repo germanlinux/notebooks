@@ -103,5 +103,63 @@ Chaque phase comporte:
 - Une case GOUROU , elle permet à l'equipe de choisir un sujet qu'elle veut voir developper
   
 
+Les phases retenues sont
 
+·       La conception de l’application et l’organisation des données
+
+·       La préparation des environnements de développement
+
+·       La réalisation de l’application
+
+·       La qualité du code
+
+·       La documentation du code
+
+·       Le déploiement
+
+·       Les IHM
+
+·       Le mode expert
+
+Mis vis-à-vis des notions à aborder :
+
+Phase
+
+Notions
+
+La conception
+
+Les dataclasses, les tuples nommés
+
+Les environnements
+
+Poetry , les environnements virtuels , l’organisation des répertoires
+
+La réalisation
+
+Les paramètres, les tris , les regexp
+
+La qualité
+
+PEP8, les exceptions, les tests unitaires, la doctest
+
+La documentation
+
+sphinx
+
+Le déploiement
+
+Création d’un module distribuable
+
+Les IHM
+
+Tkinter, la ligne de commande,  les autres solutions
+
+Le mode expert
+
+Les décorateurs, les regexp ,les itérateurs, les fonctions internes
+
+ 
+
+Notions vues lors des factorisations : les compteurs, les listcomp
   
