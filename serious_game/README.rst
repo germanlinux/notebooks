@@ -123,43 +123,29 @@ Les phases retenues sont
 
 Mis vis-à-vis des notions à aborder :
 
-Phase
 
-Notions
+=======================  ======================================
+       Phase                           Notions
+=======================  ======================================
+La conception               Les dataclasses, les tuples nommés
 
-La conception
+Les environnements         Poetry , les environnements virtuels , l’organisation des répertoires
 
-Les dataclasses, les tuples nommés
+La réalisation             Les paramètres, les tris , les regexp
 
-Les environnements
+La qualité                 PEP8, les exceptions, les tests unitaires, la doctest
 
-Poetry , les environnements virtuels , l’organisation des répertoires
+La documentation           sphinx
 
-La réalisation
+Le déploiement             Création d’un module distribuable
 
-Les paramètres, les tris , les regexp
+Les IHM                    Tkinter, la ligne de commande,  les autres solutions
 
-La qualité
+Le mode expert             Les décorateurs, les regexp ,les itérateurs, les fonctions internes
+=======================  ======================================
 
-PEP8, les exceptions, les tests unitaires, la doctest
 
-La documentation
 
-sphinx
-
-Le déploiement
-
-Création d’un module distribuable
-
-Les IHM
-
-Tkinter, la ligne de commande,  les autres solutions
-
-Le mode expert
-
-Les décorateurs, les regexp ,les itérateurs, les fonctions internes
-
- 
 
 Notions vues lors des factorisations : les compteurs, les listcomp
   
