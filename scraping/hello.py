@@ -12,7 +12,11 @@ def livre():
 
 @app.route("/")
 def index():
-    return render_template('index.html')
+    return render_template('propos-de.html')
+
+@app.route("/ethique")
+def ethique():
+    return render_template('ethique.html')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)    # change port in production
