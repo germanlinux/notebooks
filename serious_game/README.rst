@@ -133,7 +133,7 @@ Les environnements         Poetry , les environnements virtuels , l’organisati
 
 La réalisation             Les paramètres, les tris , les regexp
 
-La qualité                 PEP8, les exceptions, les tests unitaires, la doctest
+La qualité                 PEP8, les exceptions, les tests unitaires,coverage la doctest
 
 La documentation           sphinx
 
@@ -147,5 +147,5 @@ Le mode expert             Les décorateurs, les regexp ,les itérateurs, les fo
 
 
 
-Notions vues lors des factorisations : les compteurs, les listcomp
+Notions vues lors des factorisations : les compteurs, les listcomp ,lecture d'un fichier
   
