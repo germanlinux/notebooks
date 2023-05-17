@@ -149,3 +149,20 @@ Le mode expert             Les décorateurs, les regexp ,les itérateurs, les fo
 
 Notions vues lors des factorisations : les compteurs, les listcomp ,lecture d'un fichier
   
+
+Chaque équipe recoit au départ une grille à completer avec des badges.
+
+Pour les cases refactorisaton ou debug: l'equipe doit reussir l'exercice. 
+En cas d'echec, les équipes ayant reussies peuvent acquerir le badge.
+
+Les cases aide: l'equipe recoit une carte et peut à tout moment la jouer pour avoir de l'aide.
+L'equipe expose son probleme , si une autre équipe arrive à l'aider, elle empoche le badge.
+Les cartes collectées sont echangeables en badge en fin de parcours
+
+Les cases daily: Il faut expliquer ce qui a été fait et se qu'il faudrait faire. L'évaluation collective  positive donne le badge 
+Les cases pairing => elle provoque un échange de partenaire, le joueur qui tombe dessus demande un équipier, s'il trouve: les 
+deux equipes gagnent le badge, sinon l'équipe qui tire la carte suivante est désigné d'office.
+Autre modalité: l'equipe expose son code aux autres.
+
+Case quizz : case obligatoire 
+
