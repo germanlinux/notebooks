@@ -93,15 +93,13 @@ troncon suivant. Elle comportera un quizz.
 Chaque phase comporte:
 ----------------------
 
-- 
 - Une case daily meeting (exposer un sujet aux équipes)
 - Une case 'bug' : corriger un programme une fonction
 - Une case refactorisation: améliorer ou trouver une variante
-- Case aide : trouver des sites d'aide pour differents sujets , recevoir de l'aide
+- Case aide : trouver des sites d'aide ou recevoir de l'aide
 - Case pairing: une autre equipe vient relire le code ou  l'equipe expose son code
-- Une case quizz obligatoire en 7eme position
 - Une case GOUROU , elle permet à l'equipe de choisir un sujet qu'elle veut voir developper
-  
+- Une case quizz obligatoire en 7eme position  
 
 Les phases retenues sont
 
@@ -152,17 +150,32 @@ Notions vues lors des factorisations : les compteurs, les listcomp ,lecture d'un
 
 Chaque équipe recoit au départ une grille à completer avec des badges.
 
-Pour les cases refactorisaton ou debug: l'equipe doit reussir l'exercice. 
+Pour les cases refactorisaton ou bug: l'equipe doit reussir l'exercice. 
 En cas d'echec, les équipes ayant reussies peuvent acquerir le badge.
 
 Les cases aide: l'equipe recoit une carte et peut à tout moment la jouer pour avoir de l'aide.
 L'equipe expose son probleme , si une autre équipe arrive à l'aider, elle empoche le badge.
 Les cartes collectées sont echangeables en badge en fin de parcours
 
-Les cases daily: Il faut expliquer ce qui a été fait et se qu'il faudrait faire. L'évaluation collective  positive donne le badge 
+Les cases daily: Il faut expliquer ce qui a été fait et ce qu'il faudrait faire. L'évaluation est collective  positive donne le badge 
 Les cases pairing => elle provoque un échange de partenaire, le joueur qui tombe dessus demande un équipier, s'il trouve: les 
-deux equipes gagnent le badge, sinon l'équipe qui tire la carte suivante est désigné d'office.
+deux equipes gagnent le badge, sinon l'équipe qui tire la carte suivante est désignée d'office.
 Autre modalité: l'equipe expose son code aux autres.
 
-Case quizz : case obligatoire 
+Case quizz : case obligatoire ; le premier qui arrive ou depasse la case stoppe le sprint. 
+Il empoche un badge quizz 
 
+Tous les joueurs se regroupent pour le quizz qui devient la nouvelle case depart
+Les joueurs repartent du quizz dans l'ordre inverse de distance (le 1er partira en dernier)
+
+Il ne peut pas y avoir plus de deux pions dur une case hors quizz. Le 3eme joueur va à la case avant ou reste 
+sur place
+
+Il faut deux badges de même famille par grille. Il est possible d'echanger des badges en surnombre au taux de 2 pour 1
+
+Le gagnant est celui qui remplie sa grille en cas d'égalité on compte les badges en surnombre
+
+case expert: ellent servent à valider le grade d expert Python. Pour cela celui qui tombe sur cette case choisi 
+le theme, a la fin du theme , 3 questions sont posées. Il faut avoir 2 bonnes réponses pour avoir le badge
+En cas de sans fautes il peut choisir la prochaine case du troncon suivant (hors quizz) 
+Les cases expert du dernier troncon son enlevées au fur et à mesure.
