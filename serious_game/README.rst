@@ -178,4 +178,45 @@ Le gagnant est celui qui remplie sa grille en cas d'égalité on compte les badg
 case expert: ellent servent à valider le grade d expert Python. Pour cela celui qui tombe sur cette case choisi 
 le theme, a la fin du theme , 3 questions sont posées. Il faut avoir 2 bonnes réponses pour avoir le badge
 En cas de sans fautes il peut choisir la prochaine case du troncon suivant (hors quizz) 
-Les cases expert du dernier troncon son enlevées au fur et à mesure.
+Les cases expert du dernier tronçon sont indisponibles au fur et à mesure.
+
+
+
+
+Objectif: collecter un badge de chaque nature: 6 badges de base couvrant le cycle projet.
+Et tenter de collecter des badges expert: 3 badges pour expert niveau 1, 2 badges pour le niveau 2 et 1 badge pour le niveau 3.
+Chaque équipe est doté d'un grille qui retrace la validation des badges.
+Il faut donc dans l'absolu, collecter 6 badges de base et 6 badges experts
+
+Règles du jeu:
+
+1) Chaque équipe lance un dé pour déterminer le nombre de case à avancer.
+2) Il ne peut y avoir que deux équipes sur une même case. Si une 3eme équipe tombe sur cette même case, elle peut choisir la case avant ou après si elle est libre.
+3) Toutes les équipes doivent attendre le déplacment de tous les groupes pour commencer les épreuves.
+4) La réussite à l'épreuve determine l'obtention du badge correspondant.
+5) Si un groupe dépasse la case quizz: Elle s'arrete à la case quizz et les autres equipes la rejoignent sur la case quizz.
+6) L'ordre de départ d'une case quizz se fait dans l'ordre d'arrivée.
+
+Les cases et les récompenses.
+Les cases bug et refactoring: ils sont sous la forme de petits exercices. L'équipe en charge de la case doit le resoudre dans letemps imparti.
+En cas d'echec une ou plusieurs équipes peuvent proposer une solution et donc gagner le badge.
+La case pairing: Si deux equipes sont sur cette case, elle echange un membre du groupe durant l'épreuve.
+L'epreuve consiste à presenter le code au nouveau membre, à lui demenader conseil. Les membres échangés presentent brievement lecture
+comprehension du projet.
+La case aide: l'équipe peut demander de l'aide à d'autres équipes ou aux formateurs à tout moment. Elle peut ne pas demander 
+de l'aide et dans ce cas conserve le badge.
+La case expert: Les équipes sur la case se mettent d'accord sur un thème à developper. Un exercice conclu le niveau toutes les equipes reussisant l'épreuve gagnent un badge.
+Les badges en surnombre peuvent s'echanger contre d'autres badges au prix de 2 badges pour 1 badge de base.
+Et 3 badges permettent de choisir de faire un niveau expert à l'arrivée.
+
+Le gagnant  est l'équipe (ou les équipes) qui arrive sur la case arrivée avec toute sa carte complétée des badges de base.
+Puis les équipes sont classées par le nombre de niveau d'expert terminés et enfin sur le nombre total de badge utilisés ou non.
+Exemple : l'equipe A a  complété ses cases de base et un niveau 3 et il lui reste 1 badge ; l'équipe B a complété ses cases de base et 3 badges de niveau 1 , plus 2 badges inutilisés 
+L'équipe A gagne.
+
+Règles spéciales:
+- Si la case avant la case quizz est dèja occuppée par 2 pions et qu un autre pion arrive sur cette case,
+si le pion a déjà fait une étape sur le troncon : il pourra aller sur la case quizz. 
+sinon 
+Il ne pourra que reculer jusqu'a la première case disponible.
+
