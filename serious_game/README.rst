@@ -220,3 +220,6 @@ si le pion a déjà fait une étape sur le troncon : il pourra aller sur la case
 sinon 
 Il ne pourra que reculer jusqu'a la première case disponible.
 
+Les cases : aide, et pairing ne consomment pas de temps
+
+
