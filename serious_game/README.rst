@@ -221,5 +221,5 @@ sinon
 Il ne pourra que reculer jusqu'a la première case disponible.
 
 Les cases : aide, et pairing ne consomment pas de temps
-
+L'appreciation de la réussite du pairing est laissé aux formateurs
 
