@@ -222,4 +222,6 @@ Il ne pourra que reculer jusqu'a la première case disponible.
 
 Les cases : aide, et pairing ne consomment pas de temps
 L'appreciation de la réussite du pairing est laissé aux formateurs
+le timing: cours 20 minutes: exo 10 min , travail sur le projet 20 minutes, jeu: 
+minimum 10 minutes , max 15 + 10 
 
