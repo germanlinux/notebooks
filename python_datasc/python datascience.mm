@@ -110,7 +110,13 @@
 <icon BUILTIN="links/code/file_Python"/>
 </node>
 </node>
-<node TEXT="facteurs redondants" ID="ID_584804521" CREATED="1681146644296" MODIFIED="1681146757837"/>
+<node TEXT="facteurs redondants" ID="ID_584804521" CREATED="1681146644296" MODIFIED="1681146757837">
+<node TEXT="correlation" ID="ID_1513178332" CREATED="1685863121745" MODIFIED="1685863156758">
+<node TEXT="pandas-corr" ID="ID_1188453175" CREATED="1685863136689" MODIFIED="1685863188719" LINK="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.corr.html" HGAP_QUANTITY="13.25 pt">
+<icon BUILTIN="links/code/file_Python"/>
+</node>
+</node>
+</node>
 <node TEXT="suppression des valeurs extrèmes" ID="ID_1001403408" CREATED="1681300881445" MODIFIED="1681300893683">
 <node TEXT="ecart type  :std * 3" ID="ID_1042009236" CREATED="1681302749557" MODIFIED="1681303164244">
 <node TEXT="std()" ID="ID_586624430" CREATED="1681303112631" MODIFIED="1681303148367">
