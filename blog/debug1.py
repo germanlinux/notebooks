@@ -4,7 +4,7 @@ class Rectangle:
         self.largeur = l
 
     def longueur(self):
-        return self.longueur
+        return self.longueur * 2.54 
 
 
 r1= Rectangle(6, 4)
