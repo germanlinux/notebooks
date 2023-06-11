@@ -117,21 +117,6 @@
 </node>
 </node>
 </node>
-<node TEXT="suppression des valeurs extrèmes" ID="ID_1001403408" CREATED="1681300881445" MODIFIED="1681300893683">
-<node TEXT="ecart type  :std * 3" ID="ID_1042009236" CREATED="1681302749557" MODIFIED="1681303164244">
-<node TEXT="std()" ID="ID_586624430" CREATED="1681303112631" MODIFIED="1681303148367">
-<icon BUILTIN="links/code/file_Python"/>
-</node>
-</node>
-<node TEXT="quartile iqr * 1.5" ID="ID_926647153" CREATED="1681302762115" MODIFIED="1681302821946">
-<node TEXT="quantile()" ID="ID_151286015" CREATED="1681303030295" MODIFIED="1681303044854">
-<icon BUILTIN="links/code/file_Python"/>
-</node>
-</node>
-<node TEXT="LocalOutlierFactor()" ID="ID_1876277772" CREATED="1681302771573" MODIFIED="1681302785875">
-<icon BUILTIN="executable"/>
-</node>
-</node>
 <node TEXT="valeurs nulles" ID="ID_302387858" CREATED="1681303646360" MODIFIED="1681303735510">
 <icon BUILTIN="closed"/>
 <node TEXT="isnull()" ID="ID_706656599" CREATED="1681303656623" MODIFIED="1681577189142" LINK="https://pandas.pydata.org/docs/reference/api/pandas.isnull.html">
@@ -163,6 +148,22 @@
 <node TEXT="replace()" ID="ID_669464083" CREATED="1681307893163" MODIFIED="1681546519110" LINK="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.replace.html">
 <icon BUILTIN="links/code/file_Python"/>
 </node>
+</node>
+</node>
+<node TEXT="suppression des valeurs extrèmes" ID="ID_1001403408" CREATED="1681300881445" MODIFIED="1681300893683">
+<node TEXT="ecart type  :std * 3" ID="ID_1042009236" CREATED="1681302749557" MODIFIED="1681303164244">
+<node TEXT="std()" ID="ID_586624430" CREATED="1681303112631" MODIFIED="1681303148367">
+<icon BUILTIN="links/code/file_Python"/>
+</node>
+</node>
+<node TEXT="quartile iqr * 1.5" ID="ID_926647153" CREATED="1681302762115" MODIFIED="1681302821946">
+<node TEXT="quantile()" ID="ID_151286015" CREATED="1681303030295" MODIFIED="1686381442594" LINK="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.quantile.html">
+<icon BUILTIN="links/code/file_Python"/>
+</node>
+</node>
+<node TEXT="np.percentile" ID="ID_941142242" CREATED="1686381961789" MODIFIED="1686382007640" LINK="https://numpy.org/doc/stable/reference/generated/numpy.percentile.html"/>
+<node TEXT="LocalOutlierFactor()" ID="ID_1876277772" CREATED="1681302771573" MODIFIED="1681302785875">
+<icon BUILTIN="executable"/>
 </node>
 </node>
 </node>
