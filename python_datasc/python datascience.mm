@@ -150,7 +150,8 @@
 </node>
 </node>
 </node>
-<node TEXT="suppression des valeurs extrèmes" ID="ID_1001403408" CREATED="1681300881445" MODIFIED="1681300893683">
+<node TEXT="suppression des valeurs extrèmes" ID="ID_1001403408" CREATED="1681300881445" MODIFIED="1686723165525">
+<icon BUILTIN="links/app/MarginNote"/>
 <node TEXT="ecart type  :std * 3" ID="ID_1042009236" CREATED="1681302749557" MODIFIED="1681303164244">
 <node TEXT="std()" ID="ID_586624430" CREATED="1681303112631" MODIFIED="1681303148367">
 <icon BUILTIN="links/code/file_Python"/>
@@ -162,7 +163,7 @@
 </node>
 </node>
 <node TEXT="np.percentile" ID="ID_941142242" CREATED="1686381961789" MODIFIED="1686382007640" LINK="https://numpy.org/doc/stable/reference/generated/numpy.percentile.html"/>
-<node TEXT="LocalOutlierFactor()" ID="ID_1876277772" CREATED="1681302771573" MODIFIED="1681302785875">
+<node TEXT="LocalOutlierFactor()" ID="ID_1876277772" CREATED="1681302771573" MODIFIED="1686723142769" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.LocalOutlierFactor.html">
 <icon BUILTIN="executable"/>
 </node>
 </node>
