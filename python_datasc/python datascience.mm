@@ -189,12 +189,29 @@
 <node TEXT="MinMaxScaler()" ID="ID_1253063580" CREATED="1681283304206" MODIFIED="1681568879456" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html">
 <icon BUILTIN="executable"/>
 </node>
+<node TEXT="standardscaler" ID="ID_425275578" CREATED="1687447635345" MODIFIED="1687447709930" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html">
+<icon BUILTIN="executable"/>
+</node>
 <node TEXT="fit et transform" ID="ID_997686867" CREATED="1681296596951" MODIFIED="1681296663028">
 <icon BUILTIN="button_ok"/>
 <icon BUILTIN="executable"/>
 </node>
 <node TEXT="doit mettre à l&apos;echelle tous les X ?" ID="ID_502728639" CREATED="1681298023234" MODIFIED="1681298048193">
 <icon BUILTIN="help"/>
+</node>
+</node>
+<node TEXT="encodage" ID="ID_1622612207" CREATED="1687448034609" MODIFIED="1687448043323">
+<node TEXT="onehotencoder" ID="ID_1724161955" CREATED="1687448046380" MODIFIED="1687448093498" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html#sklearn.preprocessing.OneHotEncoder">
+<icon BUILTIN="executable"/>
+</node>
+<node TEXT="get_dummies" ID="ID_1901197005" CREATED="1687448252879" MODIFIED="1687448338899" LINK="https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html">
+<icon BUILTIN="links/code/file_Python"/>
+</node>
+<node TEXT="category" ID="ID_852434142" CREATED="1687448095907" MODIFIED="1687448617875" LINK="https://pandas.pydata.org/docs/user_guide/categorical.html#">
+<icon BUILTIN="links/code/file_Python"/>
+</node>
+<node TEXT="ordinalencoder" ID="ID_1022145865" CREATED="1687448657198" MODIFIED="1687449004540" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OrdinalEncoder.html#sklearn.preprocessing.OrdinalEncoder">
+<icon BUILTIN="executable"/>
 </node>
 </node>
 </node>
