@@ -7,4 +7,3 @@ def volume(L,l,h):
     return L * l * h 
 
 print(volume(longeur,largeur, hauteur))    
-print(volume(*a) )  

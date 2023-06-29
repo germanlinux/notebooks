@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="python datascience" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1681305258010" STYLE="oval" VGAP_QUANTITY="4.5 pt">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="0.827">
+<hook NAME="MapStyle" zoom="1.001">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -125,6 +125,23 @@
 <node TEXT="dropna()" ID="ID_1136571903" CREATED="1681303798578" MODIFIED="1681577596905" LINK="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html">
 <icon BUILTIN="links/code/file_Python"/>
 </node>
+</node>
+<node TEXT="suppression des valeurs extrèmes" ID="ID_1001403408" CREATED="1681300881445" MODIFIED="1686723165525">
+<icon BUILTIN="links/app/MarginNote"/>
+<node TEXT="ecart type  :std * 3" ID="ID_1042009236" CREATED="1681302749557" MODIFIED="1681303164244">
+<node TEXT="std()" ID="ID_586624430" CREATED="1681303112631" MODIFIED="1681303148367">
+<icon BUILTIN="links/code/file_Python"/>
+</node>
+</node>
+<node TEXT="quartile iqr * 1.5" ID="ID_926647153" CREATED="1681302762115" MODIFIED="1681302821946">
+<node TEXT="quantile()" ID="ID_151286015" CREATED="1681303030295" MODIFIED="1686381442594" LINK="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.quantile.html">
+<icon BUILTIN="links/code/file_Python"/>
+</node>
+</node>
+<node TEXT="np.percentile" ID="ID_941142242" CREATED="1686381961789" MODIFIED="1686382007640" LINK="https://numpy.org/doc/stable/reference/generated/numpy.percentile.html"/>
+<node TEXT="LocalOutlierFactor()" ID="ID_1876277772" CREATED="1681302771573" MODIFIED="1686723142769" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.LocalOutlierFactor.html">
+<icon BUILTIN="executable"/>
+</node>
 <node TEXT="remplacees par" ID="ID_535884344" CREATED="1681304288474" MODIFIED="1681304305517">
 <node TEXT="la moyenne" ID="ID_912761430" CREATED="1681304307912" MODIFIED="1681304311774"/>
 <node TEXT="la valeur mediane" ID="ID_232797612" CREATED="1681304312501" MODIFIED="1681304319971"/>
@@ -148,23 +165,6 @@
 <node TEXT="replace()" ID="ID_669464083" CREATED="1681307893163" MODIFIED="1681546519110" LINK="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.replace.html">
 <icon BUILTIN="links/code/file_Python"/>
 </node>
-</node>
-</node>
-<node TEXT="suppression des valeurs extrèmes" ID="ID_1001403408" CREATED="1681300881445" MODIFIED="1686723165525">
-<icon BUILTIN="links/app/MarginNote"/>
-<node TEXT="ecart type  :std * 3" ID="ID_1042009236" CREATED="1681302749557" MODIFIED="1681303164244">
-<node TEXT="std()" ID="ID_586624430" CREATED="1681303112631" MODIFIED="1681303148367">
-<icon BUILTIN="links/code/file_Python"/>
-</node>
-</node>
-<node TEXT="quartile iqr * 1.5" ID="ID_926647153" CREATED="1681302762115" MODIFIED="1681302821946">
-<node TEXT="quantile()" ID="ID_151286015" CREATED="1681303030295" MODIFIED="1686381442594" LINK="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.quantile.html">
-<icon BUILTIN="links/code/file_Python"/>
-</node>
-</node>
-<node TEXT="np.percentile" ID="ID_941142242" CREATED="1686381961789" MODIFIED="1686382007640" LINK="https://numpy.org/doc/stable/reference/generated/numpy.percentile.html"/>
-<node TEXT="LocalOutlierFactor()" ID="ID_1876277772" CREATED="1681302771573" MODIFIED="1686723142769" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.LocalOutlierFactor.html">
-<icon BUILTIN="executable"/>
 </node>
 </node>
 </node>
