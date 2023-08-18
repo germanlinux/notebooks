@@ -283,6 +283,17 @@
 <node TEXT="LinearDiscriminantAnalysis()" ID="ID_531628983" CREATED="1681305521463" MODIFIED="1681305525836">
 <icon BUILTIN="executable"/>
 </node>
+<node TEXT="regression linéaire" ID="ID_39393533" CREATED="1692343552773" MODIFIED="1692343728053">
+<icon BUILTIN="executable"/>
+<node TEXT="LinearRegression" ID="ID_1836570431" CREATED="1692343572819" MODIFIED="1692343656572" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html"/>
+<node TEXT="ridge(L2)" ID="ID_352737802" CREATED="1692343693590" MODIFIED="1692344760063" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html"/>
+<node TEXT="Lasso (L1)" ID="ID_1364340009" CREATED="1692343714740" MODIFIED="1692344753697" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html"/>
+</node>
+<node TEXT="regression logistique" ID="ID_564873241" CREATED="1692343790865" MODIFIED="1692343810233">
+<icon BUILTIN="executable"/>
+<node TEXT="LogisticRegression" ID="ID_1041097790" CREATED="1692343813306" MODIFIED="1692343863465" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html#sklearn.linear_model.LogisticRegression"/>
+<node TEXT="linearSVC" ID="ID_836553604" CREATED="1692343866873" MODIFIED="1692344106233" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html#sklearn.svm.LinearSVC"/>
+</node>
 </node>
 </node>
 </map>
